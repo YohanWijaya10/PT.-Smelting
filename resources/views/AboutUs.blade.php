@@ -93,10 +93,10 @@
         </div>
     </div>
 
-    <div class="row journey mt-5 reveal">
+    <div class="row journey mt-5 reveal ">
         <div class="row m-5 content">
             <div class="row mt-5">
-                <h1 class="titleTimeline reveal">Perjalanan PT. Smelting</h1>
+                <h1 class="titleTimeline reveal"  >Perjalanan PT. Smelting</h1>
                
                 <div class="row ">
                     <div class="col-6">
@@ -107,9 +107,9 @@
                     
                 </div>
                 
-                <div class="row  mt-5 pt-5  ">
-                    <div class="col">
-                        <button class="btn btn-success btntimeline ">Read More</button>
+                <div class="row  mt-5 pt-5   " >
+                    <div class="col"  >
+                        <button class="btn btn-success btntimeline " onclick="timeline1()">Read More</button>
                     </div>
                     </div>
                     
@@ -140,7 +140,7 @@
 
 
 
-    <div class="container">
+    <div class="container " >
         <div class="row mt-5 m-3">
             <div class="col-md">
                 <h2 class="fw-bold TitleVM reveal">Our<span class="fw-lighter"> Vision & Mission</span></h2>
@@ -149,7 +149,7 @@
                     safe and environmentally friendly processes. The company prioritizes SCQDE values, adheres to
                     responsible sourcing control, and integrates various management systems for continual improvement in
                     safety, health, and overall operational performance.</p>
-                <div class="col mt-5 pt-4">
+                <div class="col mt-5 pt-4 " onclick="visionmission()" >
                     <button class="btn btn-success btnvm reveal">Read More</button>
                 </div>
             </div>
@@ -177,7 +177,7 @@
                             <img src="img/newsdisplay2.png" alt="">
                         </div>
                         <div class="col-10 m-2 col-md-3 m-md-0 d-flex justify-content-center">
-                            <div class="row ">
+                            <div class="row " onclick="gallery()">
                                 <h5 class="">See More →</h5>
                             </div>
                         </div>
@@ -218,7 +218,21 @@
         </div>
     </div>
 
-
+    <script>
+       
+        function visionmission() {
+            
+            window.location.href = "{{ url('/visionmission') }}";
+        }
+        function timeline1() {
+            
+            window.location.href = "{{ url('/timeline') }}";
+        }
+        function gallery() {
+            
+            window.location.href = "{{ url('/gallery') }}";
+        }
+    </script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous">
     </script>

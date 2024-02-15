@@ -88,6 +88,7 @@
             padding-bottom: 2%;
             color: white;
         }
+
         .backbtn {
             color: #0F6456;
         }
@@ -95,7 +96,7 @@
 </head>
 
 <body>
-    
+
     <nav class="navbar navbar-expand-lg navbar-light  fixed-top navbar-scrolled ">
         <div class="container">
             <a class="navbar-brand" href="/"><img class="logo" src="img/logosmelting.png" width="70"
@@ -145,9 +146,9 @@
                 </h2>
             </div>
         </div>
-    
+
         <div class="container m-3 mt-5">
-            <div class="row justify-content-center">
+            <div class="row justify-content-center " onclick="pindahKeBerita1()" >
                 <div class="col-md-3 col-auto imgnews">
                     <img src="img/beritaProperHijau.jpeg" alt="">
                 </div>
@@ -156,21 +157,24 @@
                         <div class="col-auto   ">
                             <h6 class=" m-0 p-1  date text-white rounded ">23 January 2024</h6>
                         </div>
-                        <h4>PT Smelting Raih PROPER Hijau Kembali</h4>
+                        <h4 class="mt">PT Smelting Raih PROPER Hijau Kembali</h4>
                         <p class="text-black-50">PT Smelting (PTS) kembali meraih PROPER Hijau di tahun 2023 pada
                             penghargaan Program Penilaian
-                            Peringkat Kinerja Perusahaan dalam Pengelolaan Lingkungan (PROPER) yang diselenggarakan oleh
+                            Peringkat Kinerja Perusahaan dalam Pengelolaan Lingkungan (PROPER) yang diselenggarakan
+                            oleh
                             Kementerian Lingkungan Hidup dan Kehutanan (KLHK).
                         </p>
                     </div>
                     <div class="row justify-content-end ">
                         <div class="col-auto col-md-2 ">
-                            <button type="button" class="btn  align-self-end btngreen"><a class="btngreen" style="text-decoration: none" href="/berita1">Read More...</a></button>
+                            <button type="button" class="btn  align-self-end btngreen"><a class="btngreen"
+                                    style="text-decoration: none" href="/berita1">Read More...</a></button>
                         </div>
                     </div>
                 </div>
+
             </div>
-            <div class="row justify-content-center mt-4">
+            <div class="row justify-content-center mt-4" onclick="pindahKeBerita2()">
                 <div class="col-md-3 imgnews">
                     <img src="img/Tonggak.jpeg" alt="">
                 </div>
@@ -179,21 +183,23 @@
                         <div class="col-auto   ">
                             <h6 class=" m-0 p-1  date text-white rounded ">2 February 2024</h6>
                         </div>
-    
+
                         <h4>Tonggak Bersejarah PT Smelting</h4>
-                        <p class="text-black-50">Panas matahari yang menyengat tak menghalangi Presiden Joko Widodo (Jokowi)
+                        <p class="text-black-50">Panas matahari yang menyengat tak menghalangi Presiden Joko Widodo
+                            (Jokowi)
                             dan sejumlah menteri mengagumi smelter tembaga PT Smelting (PTS) di Gresik. Para tamu VVIP
                             (Very-Very Important Person) itu tampak serius mendengarkan penjelasan tentang operasional
                             smelter tersebut dari Presiden Direktur PTS Hideya Sato (Sato). </p>
                     </div>
                     <div class="row justify-content-end ">
                         <div class="col-auto col-md-2  ">
-                            <button type="button" class="btn  align-self-end btngreen"><a class="btngreen" style="text-decoration: none" href="/berita2">Read More...</a></button>
+                            <button type="button" class="btn  align-self-end btngreen"><a class="btngreen"
+                                    style="text-decoration: none" href="/berita2">Read More...</a></button>
                         </div>
                     </div>
                 </div>
             </div>
-            <div class="row justify-content-center mt-4">
+            <div class="row justify-content-center mt-4 " onclick="pindahKeBerita3()">
                 <div class="col-md-3 imgnews">
                     <img src="img/runner.jpeg" alt="">
                 </div>
@@ -204,18 +210,21 @@
                         </div>
                         <h4>Klub Baru untuk Para Pelari</h4>
                         <p class="text-black-50">Satu lagi klub hobi terbentuk di lingkungan PT Smelting (PTS). Namanya
-                            Smelting Running Club. Sesuai namanya, ini adalah klub para penggemar olah raga lari. Kapan klub
-                            ini terbentuk? Siapa saja anggotanya? Kapan latihan? Bagaimana cara untuk menjadi anggota klub?
+                            Smelting Running Club. Sesuai namanya, ini adalah klub para penggemar olah raga lari. Kapan
+                            klub
+                            ini terbentuk? Siapa saja anggotanya? Kapan latihan? Bagaimana cara untuk menjadi anggota
+                            klub?
                             Apa saja keuntungannya? Berikut petikan wawancara Smelting Magazine tentang itu.</p>
                     </div>
                     <div class="row justify-content-end ">
                         <div class="col-auto col-md-2  ">
-                            <button type="button" class="btn  align-self-end btngreen"><a class="btngreen" style="text-decoration: none" href="/berita3">Read More...</a></button>
+                            <button type="button" class="btn  align-self-end btngreen"><a class="btngreen"
+                                    style="text-decoration: none" href="/berita3">Read More...</a></button>
                         </div>
                     </div>
                 </div>
             </div>
-            <div class="row justify-content-center mt-4">
+            <div class="row justify-content-center mt-4 " onclick="pindahKeBerita4()">
                 <div class="col-md-3 imgnews">
                     <img src="img/hiv.jpeg" alt="">
                 </div>
@@ -224,21 +233,23 @@
                         <div class="col-auto   ">
                             <h6 class=" m-0 p-1  date text-white rounded ">3 February 2024</h6>
                         </div>
-    
+
                         <h4>HIV/AIDS Lewat Promotif dan Preventif</h4>
                         <p class="text-black-50">PT Smelting (PTS) terus mengkampanyekan cara hidup sehat kepada semua
-                            karyawannya. Di akhir tahun 2023, PTS kembali menggelar kegiatan promotif dan preventif untuk
+                            karyawannya. Di akhir tahun 2023, PTS kembali menggelar kegiatan promotif dan preventif
+                            untuk
                             mencegah penularan HIV/AIDS. Agenda itu mengangkat tema “Let Communities Lead”.</p>
                     </div>
                     <div class="row justify-content-end ">
                         <div class="col-auto col-md-2">
-                            <button type="button" class="btn  align-self-end btngreen"><a class="btngreen" style="text-decoration: none" href="/berita4">Read More...</a></button>
+                            <button type="button" class="btn  align-self-end btngreen"><a class="btngreen"
+                                    style="text-decoration: none" href="/berita4">Read More...</a></button>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-    
+
         <div class="container mt-5">
             <div class="row">
                 <nav aria-label="Page navigation example">
@@ -257,16 +268,16 @@
             </div>
         </div>
         <br>
-    
+
         <div class="container m-3 mt-5">
             <h2 class="fw-bolder profileTitle ">Read<span class="fw-light"> Magazine</span>
             </h2>
         </div>
-    
+
         <div class="container mt-3 m-3 ">
             <div class="row">
                 <div class="row justify-content-center ">
-                    
+
                     <div class="col-5 col-md-2 mt-3 imgmagazine justify-content-center ">
                         <img src="/img/magazine1.png" alt="">
                     </div>
@@ -288,7 +299,7 @@
                 </div>
                 <div class="row justify-content-end mt-3">
                     <div class="col-auto ">
-                        <button type="button" class="btn  align-self-end btngreen">Read More...</button>
+                        <button type="button" class="btn  align-self-end btngreen" onclick="gallery()">Read More...</button>
                     </div>
                 </div>
             </div>
@@ -324,6 +335,37 @@
             </div>
         </div>
     </div>
+    <script>
+        function pindahKeBerita1() {
+
+            window.location.href = "{{ url('/berita1') }}";
+        }
+
+        function pindahKeBerita2() {
+
+            window.location.href = "{{ url('/berita2') }}";
+        }
+
+        function pindahKeBerita3() {
+
+            window.location.href = "{{ url('/berita3') }}";
+        }
+
+        function pindahKeBerita4() {
+
+            window.location.href = "{{ url('/berita4') }}";
+        }
+
+        function news() {
+
+            window.location.href = "{{ url('/news') }}";
+        }
+
+        function gallery() {
+
+            window.location.href = "{{ url('/gallery') }}";
+        }
+    </script>
 
 
 

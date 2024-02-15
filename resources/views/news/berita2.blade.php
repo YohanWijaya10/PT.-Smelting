@@ -229,25 +229,24 @@
             </div>
         </div>
         <div class="container m-3 mt-0  d-flex justify-content-center">
-            <div class="row justify-content-center m-1 mt-0 align-items-center">
-                <div class="col-md-5 col-auto imgnews">
-                    <img src="img/tonggak.jpeg" alt="">
+            <div class="row justify-content-center m-1 mt-0 align-items-start">
+                <div class="col-md-6 col-auto imgnews">
+                    <img src="img/beritaProperHijau.jpeg" alt="">
                 </div>
                 <div class="col-md-6 col-auto">
                     <div class="row  ">
                         <div class="col-auto   ">
-                            <h6 class=" m-0 p-1  date text-white rounded ">23 January 2024</h6>
+                            
                         </div>
                         <h4>PT Smelting Raih PROPER Hijau Kembali</h4>
-                        <p class="text-black-50">Panas matahari yang menyengat tak menghalangi Presiden Joko Widodo
-                            (Jokowi)
-                            dan sejumlah menteri mengagumi smelter tembaga PT Smelting (PTS) di Gresik.
+                        <p class="text-black-50">PT Smelting (PTS) kembali meraih PROPER Hijau di tahun 2023 pada penghargaan Program Penilaian
+                            Peringkat Kinerja Perusahaan 
                         </p>
                     </div>
                     <div class="row justify-content-end ">
                         <div class="col-auto ">
                             <button type="button" class="btn  align-self-end btngreen"><a class="btngreen"
-                                    style="text-decoration: none" href="/berita1">Read More...</a></button>
+                                    style="text-decoration: none" href="/berita3">Read More...</a></button>
                         </div>
                     </div>
                 </div>
@@ -259,7 +258,7 @@
                 <div class="col-md-6 col-auto">
                     <div class="row  ">
                         <div class="col-auto   ">
-                            <h6 class=" m-0 p-1  date text-white rounded ">23 January 2024</h6>
+                            
                         </div>
                         <h4>Klub Baru untuk Para Pelari</h4>
                         <p class="text-black-50">Satu lagi klub hobi terbentuk di lingkungan PT Smelting (PTS). Namanya

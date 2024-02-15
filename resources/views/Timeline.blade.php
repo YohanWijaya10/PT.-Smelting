@@ -130,6 +130,9 @@
             overflow: hidden;
             position: absolute;
         }
+        .fore {
+            color: #660100;
+        }
     </style>
 </head>
 
@@ -185,12 +188,12 @@
     <nav class="nav  justify-content-center">
         <a class="nav-link p-1 mx-md-5 text-black-50" aria-current="page" href="/overview">Overview</a>
         <a class="nav-link p-1 mx-md-5 text-black active fw-bolder " href="/timeline">Timeline</a>
-        <a class="nav-link p-1 mx-md-5 text-black-50" href="/vision&mission">Vision & Mission</a>
+        <a class="nav-link p-1 mx-md-5 text-black-50" href="/visionmission">Vision & Mission</a>
         <a class="nav-link p-1 mx-md-5 text-black-50" href="/gallery">Gallery</a>
     </nav>
     <div class="container mt-5">
         <div class="row ">
-            <h2 class="heading">PT. Smelting:<span class="fw-lighter"> Milestone</span></h2>
+            <h2 class="heading fore">PT. Smelting:<span class="fw-lighter"> Milestone</span></h2>
         </div>
     </div>
 

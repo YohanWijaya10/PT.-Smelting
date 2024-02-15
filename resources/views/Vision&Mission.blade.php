@@ -11,6 +11,16 @@
 
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+
+
+    <style>
+        .fore {
+            color: #660100;
+        }
+        .foregreen{
+            color: #0f6456;
+        }
+    </style>
 </head>
 
 <body>
@@ -66,31 +76,31 @@
     <nav class="nav  justify-content-center">
         <a class="nav-link p-1 mx-md-5 text-black-50" aria-current="page" href="/overview">Overview</a>
         <a class="nav-link p-1 mx-md-5 text-black-50" href="/timeline">Timeline</a>
-        <a class="nav-link p-1 mx-md-5 text-black active fw-bolder" href="/vision&mission">Vision & Mission</a>
+        <a class="nav-link p-1 mx-md-5 text-black active fw-bolder" href="/visionmission">Vision & Mission</a>
         <a class="nav-link p-1 mx-md-5 text-black-50" href="/gallery">Gallery</a>
     </nav>
-    <div class="container mt-5">
+    <div class="container mt-5 fore">
         <div class="row ">
-            <h2 class="heading">PT. Smelting:<span class="fw-lighter"> Milestone</span></h2>
+            <h2 class="heading">PT. Smelting:<span class="fw-lighter"> Vision & Mission</span></h2>
         </div>
     </div>
 
     <div class="container mt-3">
         <div class="row justify-content-around ">
             <div class="col-5">
-                <h4>Vision</h4>
+                <h4 class="foregreen fw-bold">Vision</h4>
                 <p>To contribute to sustainable development of the Local Community, the Republic of Indonesia and the
                     World through our copper smelting and refining business.</p>
             </div>
             <div class="col-5">
-                <h4>Mission</h4>
+                <h4 class="foregreen fw-bold">Mission</h4>
                 <p>To realize safe, healthy and environmentally friendly process in the plant in order to deliver the
                     highest quality of copper cathode and by-products to our customers stably.</p>
             </div>
 
         </div>
     </div>
-    <div class="container mt-5 ">
+    <div class="container mt-5 fore ">
         <div class="row ">
             <h4 class="heading">RESPONSIBLE SOURCING CONTROL POLICY<span class="fw-lighter"></span></h4>
         </div>
@@ -106,7 +116,7 @@
     <div class="container mt-5 ">
         <div class="row">
             <div class="col-11">
-                <h4 class="heading">INTEGRATED MANAGEMENT SYSTEM POLICY OF PT SMELTING<span class="fw-lighter"></span>
+                <h4 class="heading fore">INTEGRATED MANAGEMENT SYSTEM POLICY OF PT SMELTING<span class="fw-lighter"></span>
                 </h4>
                 <p>
                     PT Smelting strives to produce world’s best quality of copper cathodes and its by-products to be

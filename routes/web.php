@@ -43,7 +43,7 @@ Route::get('/timeline', function () {
     return view('Timeline');
 });
 
-Route::get('/vision&mission', function () {
+Route::get('/visionmission', function () {
     return view('Vision&Mission');
 });
 

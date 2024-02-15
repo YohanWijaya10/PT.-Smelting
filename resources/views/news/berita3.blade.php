@@ -212,34 +212,33 @@
                     <div class="row">
                         <h4>PT Smelting Raih PROPER Hijau Kembali</h4>
                         <p class="text-black-50">Panas matahari yang menyengat tak menghalangi Presiden Joko Widodo
-                            (Jokowi)
-                            dan sejumlah menteri mengagumi smelter tembaga PT Smelting (PTS) di Gresik.
+                            
                         </p>
                     </div>
                     <div class="row justify-content-end ">
                         <div class="col-auto ">
                             <button type="button" class="btn  align-self-end btngreen"><a class="btngreen"
-                                    style="text-decoration: none" href="/berita1">Read More...</a></button>
+                                    style="text-decoration: none" href="/berita2">Read More...</a></button>
                         </div>
                     </div>
                 </div>
             </div>
             <div class="row justify-content-center m-1 align-items-start">
                 <div class="col-md-5 col-auto imgnews">
-                    <img src="img/runner.jpeg" alt="">
+                    <img src="img/hiv.jpeg" alt="">
                 </div>
                 <div class="col-md-6 col-auto">
                     <div class="row  ">
                         
-                        <h4>Klub Baru untuk Para Pelari</h4>
-                        <p class="text-black-50">Satu lagi klub hobi terbentuk di lingkungan PT Smelting (PTS). Namanya
-                            Smelting Running Club. Sesuai namanya, ini adalah klub para penggemar olah raga lari.
+                        <h4>HIV/AIDS Lewat Promotif dan Preventif</h4>
+                        <p class="text-black-50">
+                            PT Smelting (PTS) terus mengkampanyekan cara hidup sehat kepada semua karyawannya.
                         </p>
                     </div>
                     <div class="row justify-content-end ">
                         <div class="col-auto ">
                             <button type="button" class="btn  align-self-end btngreen"><a class="btngreen"
-                                    style="text-decoration: none" href="/berita1">Read More...</a></button>
+                                    style="text-decoration: none" href="/berita4">Read More...</a></button>
                         </div>
                     </div>
                 </div>

@@ -97,7 +97,7 @@
     <nav class="nav  justify-content-center ">
         <a class="nav-link p-1 mx-md-5 text-black-50" aria-current="page" href="/overview">Overview</a>
         <a class="nav-link p-1 mx-md-5 text-black-50" href="/timeline">Timeline</a>
-        <a class="nav-link p-1 mx-md-5 text-black-50" href="/vision&mission">Vision & Mission</a>
+        <a class="nav-link p-1 mx-md-5 text-black-50" href="/visionmission">Vision & Mission</a>
         <a class="nav-link p-1 mx-md-5 text-black active fw-bolder" href="/gallery">Gallery</a>
     </nav>
     <div class="container mt-5">
@@ -107,147 +107,147 @@
     </div>
 
     <div class="container mt-3 ">
-        <div class="row justify-content-center justify-content-md-start">
-            <div class="col-5 col-md-2 mt-3 imgmagazine ">
+        <div class="row justify-content-center justify-content-md-start reveal">
+            <div class="col-5 col-md-2 mt-3 imgmagazine reveal">
                 <img src="/img/magazine1.png" alt="">
             </div>
-            <div class="col-5 col-md-2 mt-3 imgmagazine ">
+            <div class="col-5 col-md-2 mt-3 imgmagazine reveal">
                 <img src="/img/Magazine2.png" alt="">
             </div>
-            <div class="col-5 col-md-2 mt-3 imgmagazine">
+            <div class="col-5 col-md-2 mt-3 imgmagazine reveal">
                 <img src="/img/Magazine3.png" alt="">
             </div>
-            <div class="col-5 col-md-2 mt-3 imgmagazine">
+            <div class="col-5 col-md-2 mt-3 imgmagazine reveal">
                 <img src="/img/Magazine4.png" alt="">
             </div>
-            <div class="col-5 col-md-2 mt-3 imgmagazine">
+            <div class="col-5 col-md-2 mt-3 imgmagazine reveal">
                 <img src="/img/Magazine5.png" alt="">
             </div>
-            <div class="col-5 col-md-2 mt-3 imgmagazine">
+            <div class="col-5 col-md-2 mt-3 imgmagazine reveal">
                 <img src="/img/Magazine6.png" alt="">
             </div>
-            <div class="col-5 col-md-2 mt-3 imgmagazine">
+            <div class="col-5 col-md-2 mt-3 imgmagazine reveal">
                 <img src="/img/Magazine7.png" alt="">
             </div>
-            <div class="col-5 col-md-2 mt-3 imgmagazine">
+            <div class="col-5 col-md-2 mt-3 imgmagazine reveal">
                 <img src="/img/Magazine8.png" alt="">
             </div>
-            <div class="col-5 col-md-2 mt-3 imgmagazine">
+            <div class="col-5 col-md-2 mt-3 imgmagazine reveal">
                 <img src="/img/Magazine9.png" alt="">
             </div>
         </div>
     </div>
     <div class="container mt-5">
-        <div class="row  ">
+        <div class="row  reveal">
             <h2 class="heading fw-bold forered">PT. Smelting :<span class="fw-lighter"> Gallery</span></h2>
         </div>
     </div>
-    <div class="container mt-4">
+    <div class="container mt-4 reveal">
         <h5 class="fw-bold foregreen">ESTABLISHMENT OF COMPANY</h5>
     </div>
 
     <div class="container  ">
         <div class="row justify-content-center justify-content-md-start">
-            <div class="col-5 col-md-2 mt-3 imgmagazine ">
+            <div class="col-5 col-md-2 mt-3 imgmagazine reveal">
                 <img src="/img/gallery1.png" alt="">
             </div>
-            <div class="col-5 col-md-2 mt-3 imgmagazine ">
+            <div class="col-5 col-md-2 mt-3 imgmagazine reveal">
                 <img src="/img/gallery2.png" alt="">
             </div>
-            <div class="col-5 col-md-2 mt-3 imgmagazine">
+            <div class="col-5 col-md-2 mt-3 imgmagazine reveal">
                 <img src="/img/gallery3.png" alt="">
             </div>
-            <div class="col-5 col-md-2 mt-3 imgmagazine">
+            <div class="col-5 col-md-2 mt-3 imgmagazine reveal">
                 <img src="/img/gallery4.png" alt="">
             </div>
-            <div class="col-5 col-md-2 mt-3 imgmagazine">
+            <div class="col-5 col-md-2 mt-3 imgmagazine reveal">
                 <img src="/img/gallery5.png" alt="">
             </div>
-            <div class="col-5 col-md-2 mt-3 imgmagazine">
+            <div class="col-5 col-md-2 mt-3 imgmagazine reveal">
                 <img src="/img/gallery6.png" alt="">
             </div>
         </div>
     </div>
 
-    <div class="container mt-5">
+    <div class="container mt-5 reveal">
         <h5 class="fw-bold foregreen">CONSTRUCTION PROCESS</h5>
     </div>
 
     <div class="container  ">
         <div class="row justify-content-center justify-content-md-start">
-            <div class="col-5 col-md-2 mt-3 imgmagazine ">
+            <div class="col-5 col-md-2 mt-3 imgmagazine reveal">
                 <img src="/img/imgb1.png" alt="">
             </div>
-            <div class="col-5 col-md-2 mt-3 imgmagazine ">
+            <div class="col-5 col-md-2 mt-3 imgmagazine reveal">
                 <img src="/img/imgb2.png" alt="">
             </div>
-            <div class="col-5 col-md-2 mt-3 imgmagazine">
+            <div class="col-5 col-md-2 mt-3 imgmagazine reveal">
                 <img src="/img/imgb3.png" alt="">
             </div>
-            <div class="col-5 col-md-2 mt-3 imgmagazine">
+            <div class="col-5 col-md-2 mt-3 imgmagazine reveal">
                 <img src="/img/imgb4.png" alt="">
             </div>
-            <div class="col-5 col-md-2 mt-3 imgmagazine">
+            <div class="col-5 col-md-2 mt-3 imgmagazine reveal">
                 <img src="/img/imgb5.png" alt="">
             </div>
-            <div class="col-5 col-md-2 mt-3 imgmagazine">
+            <div class="col-5 col-md-2 mt-3 imgmagazine reveal">
                 <img src="/img/imgb6.png" alt="">
             </div>
-            <div class="col-5 col-md-2 mt-3 imgmagazine ">
+            <div class="col-5 col-md-2 mt-3 imgmagazine reveal">
                 <img src="/img/imgb7.png" alt="">
             </div>
-            <div class="col-5 col-md-2 mt-3 imgmagazine ">
+            <div class="col-5 col-md-2 mt-3 imgmagazine reveal ">
                 <img src="/img/imgb8.png" alt="">
             </div>
-            <div class="col-5 col-md-2 mt-3 imgmagazine">
+            <div class="col-5 col-md-2 mt-3 imgmagazine reveal">
                 <img src="/img/imgb9.png" alt="">
             </div>
-            <div class="col-5 col-md-2 mt-3 imgmagazine">
+            <div class="col-5 col-md-2 mt-3 imgmagazine reveal">
                 <img src="/img/imgb10.png" alt="">
             </div>
-            <div class="col-5 col-md-2 mt-3 imgmagazine">
+            <div class="col-5 col-md-2 mt-3 imgmagazine reveal">
                 <img src="/img/imgb11.png" alt="">
             </div>
-            <div class="col-5 col-md-2 mt-3 imgmagazine">
+            <div class="col-5 col-md-2 mt-3 imgmagazine reveal">
                 <img src="/img/imgb12.png" alt="">
             </div>
-            <div class="col-5 col-md-2 mt-3 imgmagazine">
+            <div class="col-5 col-md-2 mt-3 imgmagazine reveal">
                 <img src="/img/imgb13.png" alt="">
             </div>
-            <div class="col-5 col-md-2 mt-3 imgmagazine ">
+            <div class="col-5 col-md-2 mt-3 imgmagazine reveal ">
                 <img src="/img/imgb14.png" alt="">
             </div>
-            <div class="col-5 col-md-2 mt-3 imgmagazine ">
+            <div class="col-5 col-md-2 mt-3 imgmagazine reveal ">
                 <img src="/img/imgb15.png" alt="">
             </div>
-            <div class="col-5 col-md-2 mt-3 imgmagazine">
+            <div class="col-5 col-md-2 mt-3 imgmagazine reveal">
                 <img src="/img/imgb16.png" alt="">
             </div>
-            <div class="col-5 col-md-2 mt-3 imgmagazine">
+            <div class="col-5 col-md-2 mt-3 imgmagazine reveal">
                 <img src="/img/imgb17.png" alt="">
             </div>
-            <div class="col-5 col-md-2 mt-3 imgmagazine">
+            <div class="col-5 col-md-2 mt-3 imgmagazine reveal">
                 <img src="/img/imgb18.png" alt="">
             </div>
-            <div class="col-5 col-md-2 mt-3 imgmagazine">
+            <div class="col-5 col-md-2 mt-3 imgmagazine reveal">
                 <img src="/img/imgb19.png" alt="">
             </div>
         </div>
     </div>
 
-    <div class="container mt-4">
+    <div class="container mt-4 reveal">
         <h5 class="fw-bold foregreen">OPENING CEREMONY</h5>
     </div>
 
     <div class="container  ">
         <div class="row justify-content-center justify-content-md-start">
-            <div class="col-5 col-md-2 mt-3 imgmagazine ">
+            <div class="col-5 col-md-2 mt-3 imgmagazine  reveal">
                 <img src="/img/imgc1.png" alt="">
             </div>
-            <div class="col-5 col-md-2 mt-3 imgmagazine ">
+            <div class="col-5 col-md-2 mt-3 imgmagazine reveal ">
                 <img src="/img/imgc2.png" alt="">
             </div>
-            <div class="col-5 col-md-2 mt-3 imgmagazine">
+            <div class="col-5 col-md-2 mt-3 imgmagazine reveal">
                 <img src="/img/imgc3.png" alt="">
             </div>
 

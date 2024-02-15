@@ -31,6 +31,9 @@
         .backbtn {
             color: #0F6456;
         }
+        .fore {
+            color: #660100;
+        }
     </style>
 </head>
 
@@ -86,7 +89,7 @@
     <nav class="nav  justify-content-center">
         <a class="nav-link p-1 mx-md-5 text-black active fw-bolder" aria-current="page" href="/overview">Overview</a>
         <a class="nav-link p-1 mx-md-5 text-black-50" href="/timeline">Timeline</a>
-        <a class="nav-link p-1 mx-md-5 text-black-50" href="/vision&mission">Vision & Mission</a>
+        <a class="nav-link p-1 mx-md-5 text-black-50" href="/visionmission">Vision & Mission</a>
         <a class="nav-link p-1 mx-md-5 text-black-50" href="/gallery">Gallery</a>
     </nav>
     <script src="https://code.highcharts.com/highcharts.js"></script>
@@ -107,10 +110,10 @@
 
     <div class="container mt-5">
         <div class="row">
-            <h3 class="fw-bolder ProfileTitle ">PT. Smelting : <span class="fw-light">Pioneering Excellence in Copper
+            <h3 class="fw-bolder ProfileTitle fore ">PT. Smelting : <span class="fw-light">Pioneering Excellence in Copper
                     Smelting and Refining in Indonesia</span>
             </h3>
-            <div class="row">
+            <div class="row mt-3">
                 <p>
                     PT. Smelting is the first copper smelter and refinery in Indonesia. Establishment of PT. Smelting
                     began

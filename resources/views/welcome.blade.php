@@ -92,7 +92,7 @@
 
     <div class="container mt-5 pt-5  ">
         <div class="row p-1  justify-content-around">
-            <div class=" col-12 col-lg-4 reveal   ">
+            <div class=" col-12 col-lg-4 reveal   " onclick="pindahKeBerita2()">
                 <div class=" row ">
                     <div class="card mb-3">
                         <img class="card-img-top" src="img/tonggak.jpeg" alt="Card image cap">
@@ -112,7 +112,7 @@
                 <div class="row">
                     <h2 class="fw-bolder NewsTitle reveal">Smelter <span class="fw-light">News</span></h2>
                 </div>
-                <div class="row d-flex p-2  reveal childnews">
+                <div class="row d-flex p-2  reveal childnews" onclick="pindahKeBerita1()">
                     <div class="d-flex flex-row ">
                         <div
                             class="d-flex flex-column justify-content-center align-items-center ms-2 p-2 text-center date rounded">
@@ -126,7 +126,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="row  p-2 reveal childnews">
+                <div class="row  p-2 reveal childnews" onclick="pindahKeBerita2()">
                     <div class="d-flex flex-row ">
                         <div
                             class="d-flex flex-column justify-content-center align-items-center ms-2 p-2 text-center date rounded">
@@ -140,7 +140,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="row  p-2  reveal childnews">
+                <div class="row  p-2  reveal childnews" onclick="pindahKeBerita3()">
                     <div class="d-flex flex-row ">
                         <div
                             class="d-flex flex-column justify-content-center align-items-center ms-2 p-2 text-center date rounded">
@@ -155,8 +155,8 @@
                     </div>
                 </div>
 
-                <div class="  d-flex justify-content-end fw-bold">
-                    <a style="text-decoration:none" href="">
+                <div class="  d-flex justify-content-end fw-bold" onclick="news()">
+                    <a style="text-decoration:none" >
                         <p class="LinkNews reveal">See More...</p>
                     </a>
                 </div>
@@ -174,7 +174,7 @@
             </div>
             <div class="col-12 col-lg-6 mt-4 reveal">
                 <h2 class="fw-bold TitleSocialMedia">Our <span class="fw-lighter">Social Media</span></h2>
-                <div class="d-flex flex-row  align-items-center">
+                <div class="d-flex flex-row  align-items-center " onclick="pindahKeInstagram()">
                     <div
                         class=" LogoInstagram d-flex flex-column justify-content-center align-items-center ms-2 p-2 text-center rounded">
                         <span><img src="img/instagram.png" alt=""></span>
@@ -185,7 +185,7 @@
                         </span>
                     </div>
                 </div>
-                <div class="d-flex flex-row  align-items-center reveal">
+                <div class="d-flex flex-row  align-items-center reveal" onclick="pindahKeYouTube()">
                     <div
                         class=" LogoInstagram d-flex flex-column justify-content-center align-items-center ms-2 p-2 text-center rounded">
                         <span><img src="img/Youtube.png" alt=""></span>
@@ -221,7 +221,7 @@
             </div>
            
         </div>
-        <div class="col d-flex justify-content-end m-4 m-md-5 ">
+        <div class="col d-flex justify-content-end m-4 m-md-5 " onclick="gallery()">
             <button class="btn btn-success btnProfile">Read More</button>
         </div>
     </div>
@@ -257,10 +257,46 @@
     </div>
 
 
+    <script>
+        function pindahKeInstagram() {
+            // Ganti URL dengan link Instagram yang sesuai
+            window.location.href = "https://www.instagram.com/SmeltingPeduli/";
+        }
+        function pindahKeYouTube() {
+        // Ganti URL dengan link YouTube yang sesuai
+        window.location.href = "https://www.youtube.com/@SmeltingMagazine";
+    }
+    </script>
+    
 
+    <script>
+        function pindahKeBerita1() {
+            
+            window.location.href = "{{ url('/berita1') }}";
+        }
+        function pindahKeBerita2() {
+            
+            window.location.href = "{{ url('/berita2') }}";
+        }
+        function pindahKeBerita3() {
+            
+            window.location.href = "{{ url('/berita3') }}";
+        }
+        function pindahKeBerita4() {
+            
+            window.location.href = "{{ url('/berita4') }}";
+        }
+        function news() {
+            
+            window.location.href = "{{ url('/news') }}";
+        }
 
-
-
+        function gallery() {
+            
+            window.location.href = "{{ url('/gallery') }}";
+        }
+    </script>
+    
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous">
     </script>
