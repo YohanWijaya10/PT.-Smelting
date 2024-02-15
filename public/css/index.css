@@ -1,0 +1,153 @@
+:root {
+    --white-muted: #0808081f;
+}
+
+
+
+.navbar-scrolled {
+    background-color:#0f6456;
+   
+    transition: ease-in-out 0.5s;
+    
+}
+
+.navbar-scrolled .navbar-nav .nav-link {
+    color: white !important;
+    transition: ease-in-out 0.5s;
+
+}
+.ProfileSection {
+    background: url(/img/BGImgProfile.png) scroll center / cover no-repeat ;
+}
+
+
+* {
+    /* border: solid 1px red; */
+    /* overflow-x: hidden !important; */
+}
+
+
+.Countainer1 {
+}
+
+.VideoProfile {
+    max-width: 100%;
+}
+
+.card-img-top {
+    max-width: 100%;
+}
+.card-img-top img{
+    max-width: 100%;
+}
+
+
+
+
+.reveal {
+    position: relative;
+    transform: translateY(10vmin);
+    opacity: 0;
+    transition: 1s all ease;
+}
+
+.reveal.active {
+    transform: translateY(0);
+    opacity: 1;
+}
+
+.ProfileTitle{
+    color: #660100;
+    font-weight: bolder;
+}
+
+.NewsTitle{
+    color: #660100;
+}
+
+.date {
+    background-color: #0F6456;
+    color: white
+}
+
+.btnProfile{
+    background-color: #0F6456;
+    transition: ease-in-out 0.2s;
+    font-weight: bolder;
+
+}
+
+
+.btnProfile:hover{
+    background-color: #0F6456;
+    font-weight: bolder;
+    transition: ease-in-out 0.2s;
+}
+
+.LinkNews{
+    color:#0F6456 ;
+}
+.ImgSocialMedia img{
+    max-width: 100%;
+}
+.ImgSocialMedia img{
+    max-width: 100%;
+}
+
+
+.TitleSocialMedia {
+    color: #660100;
+}
+
+.LogoInstagram img {
+    max-width: 100%;
+}
+.LogoInstagram  {
+    max-width: 10%;
+}
+
+.childnews{
+    transition: ease-in-out 0.3s;
+
+}
+.childnews:hover{
+    scale: 1.05;
+    transition: ease-in-out 0.1s;
+
+}
+
+.magazine img {
+    max-width: 85%;
+    transition: ease-in-out 0.3s;
+}
+
+.magazine{
+    transition: ease-in-out 0.05s;
+    max-width: 100%;
+}
+
+.magazine :hover {
+    scale: 1.05;
+    transition: ease-in-out 0.3s;
+}
+.footer {
+    max-width: 100%;
+    margin: 0%;
+    padding: 0%;
+    background-color: #0F6456;
+    overflow: hidden;
+}
+
+
+.footer img {
+    max-width: 100%;
+}
+
+.footerpad {
+    padding-top: 2%;
+    padding-bottom: 2%;
+    color: white;
+}
+
+
+

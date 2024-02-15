@@ -1,0 +1,33 @@
+
+.navbar-scrolled {
+    background-color:#0f6456;
+   
+    transition: ease-in-out 0.5s;
+    
+}
+
+.navbar-scrolled .navbar-nav .nav-link {
+    color: white !important;
+    transition: ease-in-out 0.5s;
+
+}
+
+.navbar {
+    overflow-x: hidden;
+}
+
+
+/* *{
+    border: red 1px solid;
+} */
+.reveal {
+    position: relative;
+    transform: translateY(10vmin);
+    opacity: 0;
+    transition: 1s all ease;
+}
+
+.reveal.active {
+    transform: translateY(0);
+    opacity: 1;
+}
