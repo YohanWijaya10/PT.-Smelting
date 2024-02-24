@@ -10,7 +10,36 @@
     <title>PT Smelting</title>
     <link rel="stylesheet" href="/css/index.css">
     <style>
+        .navbar-nav .dropdown-menu {
+            background-color: #fff;
+            
+        }
 
+        .navbar-nav .dropdown-item {
+            color: #333;
+            
+        }
+
+        .navbar-nav .dropdown-item:hover,
+        .navbar-nav .dropdown-item:focus {
+            background-color: #f8f9fa;
+        }
+    </style>
+    <style>
+        .navbar-nav .dropdown-menu {
+            background-color: #fff;
+            
+        }
+
+        .navbar-nav .dropdown-item {
+            color: #333;
+            
+        }
+
+        .navbar-nav .dropdown-item:hover,
+        .navbar-nav .dropdown-item:focus {
+            background-color: #f8f9fa;
+        }
     </style>
 </head>
 <script src="{{ asset('js/bootstrap.min.js') }}"></script>
@@ -27,17 +56,43 @@
             </button>
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav ms-auto ">
-                    <li class="nav-item mx-3">
-                        <a class="nav-link text-light" href="/aboutus">About Us</a>
+                    <li class="nav-item dropdown  mx-3">
+                        <a class="nav-link dropdown-toggle text-white" href="#" id="navbarDropdown" role="button"
+                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            About us
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item" href="/aboutus">Profile</a></li>
+                            <li><a class="dropdown-item" href="/managementsystem">Management System</a></li>
+                            <li><a class="dropdown-item" href="/award&sertification">Award & Sertification</a></li>
+                            <li><a class="dropdown-item" href="/jobopportunity">Job Opportunity</a></li>
+                            
+                        </ul>
+                    </li>
+                    
+                    <li class="nav-item dropdown  mx-3">
+                        <a class="nav-link dropdown-toggle text-white" href="#" id="navbarDropdown" role="button"
+                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Process
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item" href="/simplifieddiagram">Simplified Diagram</a></li>
+                            <li><a class="dropdown-item" href="/rawmaterial">rawmaterial</a></li>
+                            <li><a class="dropdown-item" href="/process">smelter</a></li>
+                            <li><a class="dropdown-item" href="/refinery">Refinery</a></li>
+                            <li><a class="dropdown-item" href="/acidplant">Acid Plant & WWTP</a></li>
+                            <li><a class="dropdown-item" href="/supportfacility">Support Facility</a></li>
+                            
+                        </ul>
                     </li>
                     <li class="nav-item mx-3">
-                        <a class="nav-link text-light" href="#">Process</a>
+                        <a class="nav-link text-light" href="/product">Product</a>
                     </li>
                     <li class="nav-item mx-3">
-                        <a class="nav-link text-light" href="#">Product</a>
+                        <a class="nav-link text-light" href="/environmental">Environmental</a>
                     </li>
                     <li class="nav-item mx-3">
-                        <a class="nav-link text-light" href="#">Environmental & CSR Activity</a>
+                        <a class="nav-link text-light" href="/csr">CSR Activity</a>
                     </li>
                     <li class="nav-item mx-3">
                         <a class="nav-link text-light" href="/news">News</a>
@@ -45,6 +100,7 @@
                     <li class="nav-item mx-3">
                         <a class="nav-link text-light" href="#">Sitemap</a>
                     </li>
+                    
                 </ul>
             </div>
         </div>
@@ -55,8 +111,9 @@
             <div class="carousel-inner">
                 <div class="carousel-item active">
                     <video class="  d-block w-100   " controls autoplay muted loop style="pointer-events: none;">
-                        <source src="img/videomain.mp4" type="video/mp4">
+                        <source src="img/mainvid.mp4" type="video/mp4">
                     </video>
+                    
                 </div>
             </div>
         </div>
@@ -67,9 +124,18 @@
         <div class="container">
             <div class="row g-1 m-lg-3 g-md-5 m-1 justify-content-between   ">
                 <div class="col-12 col-lg-6">
-                    <video class=" align-items-center w-100  rounded reveal" controls autoplay muted id="vid">
+                    <video class="align-items-center w-100 rounded reveal" controls muted id="vid" loop>
                         <source src="img/ptsprofile.mp4" type="video/mp4">
                     </video>
+                    
+                    <script>
+                        var video = document.getElementById('vid');
+                    
+                        // Play the video after the page has loaded
+                        window.onload = function() {
+                            video.play();
+                        };
+                    </script>
                 </div>
                 <div class="col-12 col-lg-6 d-flex flex-column justify-content-between ">
                     <div>
@@ -82,7 +148,8 @@
                             with a friendly environment and economically.</p>
                     </div>
                     <div class="d-flex justify-content-end reveal">
-                        <button class="btn btn-success btnProfile"> <a class="text-white" style="text-decoration:none" href="aboutus">Read More</a></button>
+                        <button class="btn btn-success btnProfile"> <a class="text-white"
+                                style="text-decoration:none" href="aboutus">Read More</a></button>
                     </div>
                 </div>
             </div>
@@ -98,7 +165,9 @@
                         <img class="card-img-top" src="img/tonggak.jpeg" alt="Card image cap">
                         <div class="card-body">
                             <h5 class="card-title">Tonggak Bersejarah PT Smelting</h5>
-                            <p class="card-text">Panas matahari yang menyengat tak menghalangi Presiden Joko Widodo (Jokowi) dan sejumlah menteri mengagumi smelter tembaga PT Smelting (PTS) di Gresik. </p>
+                            <p class="card-text">Panas matahari yang menyengat tak menghalangi Presiden Joko Widodo
+                                (Jokowi) dan sejumlah menteri mengagumi smelter tembaga PT Smelting (PTS) di Gresik.
+                            </p>
                             <p class="card-text"><small class="text-muted">2 February 2024</small></p>
                         </div>
                     </div>
@@ -110,7 +179,7 @@
             </div>
             <div class="col-12 col-lg-6 ">
                 <div class="row">
-                    <h2 class="fw-bolder NewsTitle reveal">Smelter <span class="fw-light">News</span></h2>
+                    <h2 class="fw-bolder NewsTitle reveal">Smelting <span class="fw-light">News</span></h2>
                 </div>
                 <div class="row d-flex p-2  reveal childnews" onclick="pindahKeBerita1()">
                     <div class="d-flex flex-row ">
@@ -135,7 +204,8 @@
                         </div>
                         <div class="d-flex flex-column ms-2 ">
                             <span class="fw-bold">Tonggak Bersejarah PT Smelting</span>
-                            <span class="text-black-50 ">Panas matahari yang menyengat tak menghalangi Presiden Joko Widodo ...
+                            <span class="text-black-50 ">Panas matahari yang menyengat tak menghalangi Presiden Joko
+                                Widodo ...
                             </span>
                         </div>
                     </div>
@@ -149,14 +219,15 @@
                         </div>
                         <div class="d-flex flex-column ms-2 ">
                             <span class="fw-bold">Klub Baru untuk Para Pelari</span>
-                            <span class="text-black-50">Satu lagi klub hobi terbentuk di lingkungan PT Smelting (PTS)...
+                            <span class="text-black-50">Satu lagi klub hobi terbentuk di lingkungan PT Smelting
+                                (PTS)...
                             </span>
                         </div>
                     </div>
                 </div>
 
                 <div class="  d-flex justify-content-end fw-bold" onclick="news()">
-                    <a style="text-decoration:none" >
+                    <a style="text-decoration:none">
                         <p class="LinkNews reveal">See More...</p>
                     </a>
                 </div>
@@ -203,7 +274,7 @@
     <div class="container mt-5 pt-5">
         <div class="row">
             <div class="col-12 col-lg-6 reveal">
-                <h2 class="fw-bold TitleSocialMedia">Smelter <span class="fw-lighter">Media</span></h2>
+                <h2 class="fw-bold TitleSocialMedia">Smelting <span class="fw-lighter">Media</span></h2>
             </div>
         </div>
         <div class="row m-2 d-flex align-items-center justify-content-center MagazineParent reveal ">
@@ -219,7 +290,7 @@
             <div class="col-4 col-md-3 magazine m-1 m-md-0 reveal">
                 <img src="img/Magazine4.png" alt="">
             </div>
-           
+
         </div>
         <div class="col d-flex justify-content-end m-4 m-md-5 " onclick="gallery()">
             <button class="btn btn-success btnProfile">Read More</button>
@@ -255,48 +326,64 @@
             </div>
         </div>
     </div>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.2/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 
-
+    <script>
+        $(document).ready(function() {
+            $('.dropdown-submenu a.test').on("click", function(e) {
+                $(this).next('ul').toggle();
+                e.stopPropagation();
+                e.preventDefault();
+            });
+        });
+    </script>
     <script>
         function pindahKeInstagram() {
             // Ganti URL dengan link Instagram yang sesuai
             window.location.href = "https://www.instagram.com/SmeltingPeduli/";
         }
+
         function pindahKeYouTube() {
-        // Ganti URL dengan link YouTube yang sesuai
-        window.location.href = "https://www.youtube.com/@SmeltingMagazine";
-    }
+            // Ganti URL dengan link YouTube yang sesuai
+            window.location.href = "https://www.youtube.com/@SmeltingMagazine";
+        }
     </script>
-    
+
 
     <script>
         function pindahKeBerita1() {
-            
+
             window.location.href = "{{ url('/berita1') }}";
         }
+
         function pindahKeBerita2() {
-            
+
             window.location.href = "{{ url('/berita2') }}";
         }
+
         function pindahKeBerita3() {
-            
+
             window.location.href = "{{ url('/berita3') }}";
         }
+
         function pindahKeBerita4() {
-            
+
             window.location.href = "{{ url('/berita4') }}";
         }
+
         function news() {
-            
+
             window.location.href = "{{ url('/news') }}";
         }
 
         function gallery() {
-            
+
             window.location.href = "{{ url('/gallery') }}";
         }
     </script>
-    
+
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous">
     </script>

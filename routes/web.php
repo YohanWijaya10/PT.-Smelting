@@ -71,3 +71,41 @@ Route::get('/berita3', function () {
 Route::get('/berita4', function () {
     return view('news/berita4');
 });
+
+Route::get('/process', function () {
+    return view('process');
+});
+
+Route::get('/simplifieddiagram', function () {
+    return view('simplifieddiagram');
+});
+
+Route::get('/rawmaterial', function () {
+    return view('rawmaterial');
+});
+
+Route::get('/refinery', function () {
+    return view('refinery');
+});
+
+Route::get('/acidplant', function () {
+    return view('/acidplant');
+});
+
+Route::get('/supportfacility', function () {
+    return view('/supportfacility');
+});
+
+Route::get('/product', function () {
+    return view('/product');
+});
+
+
+Route::get('/environmental', function () {
+    return view('/Enviromental');
+});
+
+
+Route::get('/csr', function () {
+    return view('/csr');
+});

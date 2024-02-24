@@ -22,9 +22,7 @@
 
         }
 
-        .navbar {
-            overflow-x: hidden;
-        }
+        
 
         .imgnews {
             max-width: 100%;
@@ -42,6 +40,22 @@
             color: #660100;
         }
     </style>
+     <style>
+        .navbar-nav .dropdown-menu {
+            background-color: #fff;
+            
+        }
+
+        .navbar-nav .dropdown-item {
+            color: #333;
+            
+        }
+
+        .navbar-nav .dropdown-item:hover,
+        .navbar-nav .dropdown-item:focus {
+            background-color: #f8f9fa;
+        }
+    </style>
 </head>
 
 <body>
@@ -55,17 +69,43 @@
             </button>
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav ms-auto ">
-                    <li class="nav-item mx-3">
-                        <a class="nav-link text-light fw-lighter " href="/aboutus"> About Us</a>
+                    <li class="nav-item dropdown  mx-3"> 
+                        <a class="nav-link dropdown-toggle text-white fw-lighter" href="#" id="navbarDropdown" role="button"
+                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            About us
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item" href="/aboutus">Profile</a></li>
+                            <li><a class="dropdown-item" href="/managementsystem">Management System</a></li>
+                            <li><a class="dropdown-item" href="/award&sertification">Award & Sertification</a></li>
+                            <li><a class="dropdown-item" href="/jobopportunity">Job Opportunity</a></li>
+                            
+                        </ul>
+                    </li>
+                    
+                    <li class="nav-item dropdown  mx-3 text-light">
+                        <a class="nav-link dropdown-toggle text-white fw-lighter" href="#" id="navbarDropdown" role="button"
+                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Process
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item" href="/simplifieddiagram">Simplified Diagram</a></li>
+                            <li><a class="dropdown-item" href="/rawmaterial">rawmaterial</a></li>
+                            <li><a class="dropdown-item" href="/process">smelter</a></li>
+                            <li><a class="dropdown-item" href="/refinery">Refinery</a></li>
+                            <li><a class="dropdown-item" href="/acidplant">Acid Plant & WWTP</a></li>
+                            <li><a class="dropdown-item" href="/supportfacility">Support Facility</a></li>
+                            
+                        </ul>
                     </li>
                     <li class="nav-item mx-3">
-                        <a class="nav-link text-light fw-lighter" href="/">Process</a>
+                        <a class="nav-link text-light" href="/product">Product</a>
                     </li>
                     <li class="nav-item mx-3">
-                        <a class="nav-link text-light fw-lighter" href="#">Product</a>
+                        <a class="nav-link text-light fw-lighter" href="/environmental">Environmental</a>
                     </li>
                     <li class="nav-item mx-3">
-                        <a class="nav-link text-light fw-lighter" href="#">Environmental & CSR Activity</a>
+                        <a class="nav-link text-light fw-lighter" href="/csr">CSR Activity</a>
                     </li>
                     <li class="nav-item mx-3">
                         <a class="nav-link text-light fw-bolder" href="/news">News</a>
@@ -73,6 +113,7 @@
                     <li class="nav-item mx-3">
                         <a class="nav-link text-light fw-lighter" href="#">Sitemap</a>
                     </li>
+                    
                 </ul>
             </div>
         </div>
@@ -99,7 +140,7 @@
             <div class="row m-md-5 m-1">
                 <h3 class="fw-bolder profileTitle ">HIV/AIDS Lewat Promotif dan Preventif<span class="fw-light"></span>
                 </h3>
-                <p class="btngreen fw-bold">25 December 2023</p>
+                <p class="btngreen fw-bold">3 February 2023</p>
             </div>
         </div>
         <div class="container mt-5 m-3 justify-content-center">
@@ -220,6 +261,9 @@
             }
         });
     </script>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.2/dist/umd/popper.min.js"></script>
+     script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"

@@ -9,6 +9,22 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
     <title>Document</title>
+    <style>
+        .navbar-nav .dropdown-menu {
+            background-color: #fff;
+            
+        }
+
+        .navbar-nav .dropdown-item {
+            color: #333;
+            
+        }
+
+        .navbar-nav .dropdown-item:hover,
+        .navbar-nav .dropdown-item:focus {
+            background-color: #f8f9fa;
+        }
+    </style>
 </head>
 
 <body>
@@ -26,13 +42,13 @@
                         <a class="nav-link text-light fw-bolder " href="/aboutus"> About Us</a>
                     </li>
                     <li class="nav-item mx-3">
-                        <a class="nav-link text-light fw-lighter" href="/">Process</a>
+                        <a class="nav-link text-light fw-lighter" href="/simplifieddiagram">Process</a>
                     </li>
                     <li class="nav-item mx-3">
-                        <a class="nav-link text-light fw-lighter" href="#">Product</a>
+                        <a class="nav-link text-light fw-lighter" href="/product">Product</a>
                     </li>
                     <li class="nav-item mx-3">
-                        <a class="nav-link text-light fw-lighter" href="#">Environmental & CSR Activity</a>
+                        <a class="nav-link text-light fw-lighter" href="environmental">Environmental & CSR Activity</a>
                     </li>
                     <li class="nav-item mx-3">
                         <a class="nav-link text-light fw-lighter" href="/news">News</a>
