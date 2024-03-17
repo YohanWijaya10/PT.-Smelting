@@ -6,6 +6,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <style>
+         *{
+            font-family: "Raleway", sans-serif;
+        }
+    </style>
     <link rel="stylesheet" href="/css/headeraboutus.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
@@ -155,7 +163,7 @@
 <body>
     <nav class="navbar navbar-expand-lg navbar-light  fixed-top navbar-scrolled ">
         <div class="container">
-            <a class="navbar-brand" href="#"><img class="logo" src="img/logosmelting.png" width="70"
+            <a class="navbar-brand" href="/"><img class="logo" src="img/logosmelting.png" width="70"
                     height="70"></a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
                 aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -207,6 +215,12 @@
                     <li class="nav-item mx-3">
                         <a class="nav-link text-light fw-ligter" href="#">Sitemap</a>
                     </li>
+                    <li class="nav-item mx-1">
+                        <a class="nav-link text-light fw-lighter" href="/">🇮🇩</a>
+                    </li>
+                    <li class="nav-item mx-1">
+                        <a class="nav-link text-light fw-lighter" href="/en">🇬🇧</a>
+                    </li>
                     
                 </ul>
             </div>
@@ -236,7 +250,7 @@
     </nav>
     <div class="container mt-5">
         <div class="row ">
-            <h2 class="heading fore">PT. Smelting:<span class="fw-lighter"> Milestone</span></h2>
+            <h2 class="heading fore">PT Smelting:<span class="fw-lighter"> Milestone</span></h2>
         </div>
     </div>
 
@@ -246,157 +260,142 @@
             <div class="mcontainer4">
                 <div class="container4">
                     <div class="righttext4 reveal">
-                        <span>Our Journey</span>
+                        <span>Kami Perjalanan</span>
                     </div>
                     <div class="rb-container">
                         <ul class="rb">
                             <li class="rb-item reveal" ng-repeat="itembx">
                                 <div class="timestamp">
-                                    1994 September
+                                    September 1994
                                 </div>
-                                <div class="item-title">PT. Freeport Indonesia invited Mitsubishi Material Corporation
-                                    to make PT. Smelting Project</div>
+                                <div class="item-title">PT. Freeport Indonesia mengundang Mitsubishi Material Corporation untuk
+                                    melakukan Proyek PT Smelting</div>
                             </li>
                             <li class="rb-item reveal" ng-repeat="itembx">
                                 <div class="timestamp">
-                                    7 Feb 1996
+                                    7 Februari 1996
                                 </div>
                                 <div class="item-title">
-                                    Establishment of Company
+                                    Pendirian Perusahaan
                                 </div>
-
+                    
                                 <div class="timestamp mt-2">
-                                    12 Jul 1996
+                                    12 Juli 1996
                                 </div>
                                 <div class="item-title">
-                                    Earth Breaking Ceremony
+                                    Upacara Pemecahan Tanah
                                 </div>
                             </li>
                             <li class="rb-item reveal" ng-repeat="itembx">
                                 <div class="timestamp">
-                                    31 Aug 1998 <br>
+                                    31 Agustus 1998 <br>
                                 </div>
-                                <div class="item-title">Completion of Construction</div>
+                                <div class="item-title">Penyelesaian Konstruksi</div>
                                 <div class="timestamp">
-                                    14 Dec 1998<br>
+                                    14 Desember 1998<br>
                                 </div>
-                                <div class="item-title">Trial Operation</div>
+                                <div class="item-title">Operasi Percobaan</div>
                             </li>
                             <li class="rb-item reveal" ng-repeat="itembx">
                                 <div class="timestamp">
-                                    5 May 1999
+                                    5 Mei 1999
                                 </div>
-                                <div class="item-title">Start of Commercial Production (Design Capacity: 200,000 TPY).
-                                </div>
+                                <div class="item-title">Mulai Produksi Komersial (Kapasitas Desain: 200.000 TPY).</div>
                             </li>
                             <li class="rb-item reveal" ng-repeat="itembx">
                                 <div class="timestamp">
-                                    July 2000
+                                    Juli 2000
                                 </div>
-                                <div class="item-title">PT. Smelting obtain Industrial Business License</div>
-
+                                <div class="item-title">PT Smelting memperoleh Izin Usaha Industri</div>
+                    
                                 <div class="timestamp">
-                                    25 Aug 2000
+                                    25 Agustus 2000
                                 </div>
-                                <div class="item-title">Opening Ceremony by The President of Republic of Indonesia
-                                </div>
+                                <div class="item-title">Upacara Pembukaan oleh Presiden Republik Indonesia</div>
                             </li>
                             <li class="rb-item reveal" ng-repeat="itembx">
                                 <div class="timestamp">
-                                    10 July 2001
+                                    10 Juli 2001
                                 </div>
-                                <div class="item-title">Copper Cathode Registered to LME Grade A</div>
+                                <div class="item-title">Katode Tembaga Terdaftar di LME Grade A</div>
                             </li>
                             <li class="rb-item reveal" ng-repeat="itembx">
                                 <div class="timestamp">
-                                    11 Jan 2002
+                                    11 Januari 2002
                                 </div>
-                                <div class="item-title">Obtain ISO 9001: 2000 Certificate</div>
+                                <div class="item-title">Memperoleh Sertifikat ISO 9001: 2000</div>
                             </li>
                             <li class="rb-item reveal" ng-repeat="itembx">
                                 <div class="timestamp">
-                                    15 Jan 2004
+                                    15 Januari 2004
                                 </div>
-                                <div class="item-title">Obtain ISO 9001: 2000 Certificate</div>
+                                <div class="item-title">Memperoleh Sertifikat ISO 9001: 2000</div>
                             </li>
                             <li class="rb-item reveal" ng-repeat="itembx">
                                 <div class="timestamp">
-                                    Aug 2006
+                                    Agustus 2006
                                 </div>
-                                <div class="item-title">Completion of Refinery 2nd Expansion Work (Capacity : 270,000
-                                    TPY)</div>
+                                <div class="item-title">Penyelesaian Pekerjaan Ekspansi Refinery ke-2 (Kapasitas: 270.000 TPY)</div>
                             </li>
                             <li class="rb-item reveal" ng-repeat="itembx">
                                 <div class="timestamp">
-                                    Sep 2009
+                                    September 2009
                                 </div>
-                                <div class="item-title">Completion of Refinery 3rd Expansion Work (Capacity : 300,000
-                                    TPY)</div>
+                                <div class="item-title">Penyelesaian Pekerjaan Ekspansi Refinery ke-3 (Kapasitas: 300.000 TPY)</div>
                             </li>
                             <li class="rb-item reveal" ng-repeat="itembx">
                                 <div class="timestamp">
-                                    Sep 2014
+                                    September 2014
                                 </div>
-                                <div class="item-title">Obtain ISO 14001:2004 Certificate</div>
+                                <div class="item-title">Memperoleh Sertifikat ISO 14001:2004</div>
                             </li>
                             <li class="rb-item reveal" ng-repeat="itembx">
                                 <div class="timestamp">
-                                    Nov 2017
+                                    November 2017
                                 </div>
-                                <div class="item-title">Upgraded certification of ISO 14001:2015
-                                    Obtained National Object Vital status from Industrial Minister
-                                </div>
+                                <div class="item-title">Peningkatan sertifikasi ISO 14001:2015, Memperoleh status Objek Vital Nasional dari Menteri
+                                    Perindustrian</div>
                             </li>
                             <li class="rb-item reveal" ng-repeat="itembx">
                                 <div class="timestamp">
-                                    Sep 2018
+                                    September 2018
                                 </div>
-                                <div class="item-title">Obtained SNI 0030:2011 Sulfuric Acid
-                                </div>
+                                <div class="item-title">Memperoleh SNI 0030:2011 Asam Sulfat</div>
                                 <div class="timestamp">
-                                    Nov 2018
+                                    November 2018
                                 </div>
-                                <div class="item-title">Completion of Smelter & Acid Plant Expansion Work (Cap. : 1.1
-                                    MTPY)
-                                </div>
+                                <div class="item-title">Penyelesaian Pekerjaan Ekspansi Smelter & Pabrik Asam (Kapasitas: 1,1 MTPY)</div>
                             </li>
                             <li class="rb-item reveal" ng-repeat="itembx">
                                 <div class="timestamp">
-                                    Jan 2019
+                                    Januari 2019
                                 </div>
-                                <div class="item-title">Obtained SNI 0030:2011 Sulfuric Acid
-                                </div>
+                                <div class="item-title">Memperoleh SNI 0030:2011 Asam Sulfat</div>
                                 <div class="timestamp">
-                                    21 May 2019
+                                    21 Mei 2019
                                 </div>
-                                <div class="item-title">Completion of Smelter & Acid Plant Expansion Work (Cap. : 1.1
-                                    MTPY)
-                                </div>
+                                <div class="item-title">Penyelesaian Pekerjaan Ekspansi Smelter & Pabrik Asam (Kapasitas: 1,1 MTPY)</div>
                             </li>
                             <li class="rb-item reveal" ng-repeat="itembx">
                                 <div class="timestamp">
-                                    Aug 2020
+                                    Agustus 2020
                                 </div>
-                                <div class="item-title">Obtained SNI 0030:2011 Sulfuric Acid
-                                </div>
+                                <div class="item-title">Memperoleh SNI 0030:2011 Asam Sulfat</div>
                                 <div class="timestamp">
-                                    Sep 2020
+                                    September 2020
                                 </div>
-                                <div class="item-title">Completion of Smelter & Acid Plant Expansion Work (Cap. : 1.1
-                                    MTPY)
-                                </div>
+                                <div class="item-title">Penyelesaian Pekerjaan Ekspansi Smelter & Pabrik Asam (Kapasitas: 1,1 MTPY)</div>
                             </li>
                             <li class="rb-item reveal" ng-repeat="itembx">
                                 <div class="timestamp">
-                                    Aug 2021
+                                    Agustus 2021
                                 </div>
-                                <div class="item-title">Change of shareholder : Mitsubishi Materials Company 60.5% and
-                                    PT Freeport Indonesia 39.5%
-                                </div>
-
+                                <div class="item-title">Perubahan pemegang saham: Mitsubishi Materials Company 60.5% dan PT Freeport Indonesia
+                                    39.5%</div>
                             </li>
                         </ul>
                     </div>
+                    
                 </div>
             </div>
         </div>

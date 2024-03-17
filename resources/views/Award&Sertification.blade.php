@@ -9,6 +9,14 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
     <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <style>
+         *{
+            font-family: "Raleway", sans-serif;
+        }
+    </style>
     <style>
         .navbar-nav .dropdown-menu {
             background-color: #fff;
@@ -56,6 +64,12 @@
                     <li class="nav-item mx-3">
                         <a class="nav-link text-light fw-lighter" href="#">Sitemap</a>
                     </li>
+                    <li class="nav-item mx-1">
+                        <a class="nav-link text-light fw-lighter" href="/">🇮🇩</a>
+                    </li>
+                    <li class="nav-item mx-1">
+                        <a class="nav-link text-light fw-lighter" href="/en">🇬🇧</a>
+                    </li>
                 </ul>
             </div>
         </div>
@@ -83,7 +97,7 @@
     </div>
     <div class="container mt-5 pt">
         <div class="row ">
-            <h2 class="heading">PT. Smelting:<span class="fw-lighter"> Smelting Management System</span></h2>
+            <h2 class="heading">PT Smelting:<span class="fw-lighter"> Smelting Management System</span></h2>
         </div>
     </div>
     
@@ -97,7 +111,7 @@
                     <div class="col-8">
                         <div class="row">
                             <h4 class="fw-bold title">ISO 45001</h4>
-                            <p>PT. Smelting has implemented Occupational Safety and Health according to ISO 45001:2018
+                            <p>PT Smelting has implemented Occupational Safety and Health according to ISO 45001:2018
                                 in
                                 the integrated management system.As the first copper smelter and refinery in Indonesia,
                                 PT.
@@ -155,9 +169,9 @@
                     <div class="col-8">
                         <div class="row">
                             <h4 class="fw-bold  title">Security Management System Implementation</h4>
-                            <p>PT. Smelting is determined as National Vital Object company (Obvitnas) based on decision
+                            <p>PT Smelting is determined as National Vital Object company (Obvitnas) based on decision
                                 from
-                                Industrial Ministry No. 466/M-IND/Kep/8/2014. Therefore, PT. Smelting implements
+                                Industrial Ministry No. 466/M-IND/Kep/8/2014. Therefore, PT Smelting implements
                                 security
                                 management system based on Police Regulation No. 7/2019 and got its certification on
                                 September 1, 2021 with gold level achievement.
@@ -175,9 +189,9 @@
                         <div class="row">
                             <h4 class="fw-bold  title">PROPER (Program of Company Performance Rating Assessment on
                                 Environmental Management)</h4>
-                            <p>PT. Smelting is determined as National Vital Object company (Obvitnas) based on decision
+                            <p>PT Smelting is determined as National Vital Object company (Obvitnas) based on decision
                                 from
-                                Industrial Ministry No. 466/M-IND/Kep/8/2014. Therefore, PT. Smelting implements
+                                Industrial Ministry No. 466/M-IND/Kep/8/2014. Therefore, PT Smelting implements
                                 security
                                 management system based on Police Regulation No. 7/2019 and got its certification on
                                 September 1, 2021 with gold level achievement.
@@ -261,7 +275,7 @@
                     <div class="col-8">
                         <div class="row">
                             <h4 class="fw-bold title">BKPM</h4>
-                            <p> PT. Smelting achieved Yasa Ayodhya Adinugraha Award from Capital Investment Coordinating Board in September 2002
+                            <p> PT Smelting achieved Yasa Ayodhya Adinugraha Award from Capital Investment Coordinating Board in September 2002
                             </p>
                         </div>
                     </div>
@@ -275,7 +289,7 @@
                     <div class="col-8">
                         <div class="row">
                             <h4 class="fw-bold title">SMK3</h4>
-                            <p> January 2005 and February 2008, PT. Smelting achieved golden flag of OSH movement and last update in 2019 PTS returned to get the gold flag
+                            <p> January 2005 and February 2008, PT Smelting achieved golden flag of OSH movement and last update in 2019 PTS returned to get the gold flag
                             </p>
                         </div>
                     </div>
@@ -289,7 +303,7 @@
                     <div class="col-8">
                         <div class="row">
                             <h4 class="fw-bold title">HALAL DECREE </h4>
-                            <p> Sulfuric acid (GSR) of PT. Smelting product has obtained halal decree from the Indonesian Council of Ulama of East Java since March 31, 2022
+                            <p> Sulfuric acid (GSR) of PT Smelting product has obtained halal decree from the Indonesian Council of Ulama of East Java since March 31, 2022
                             </p>
                         </div>
                     </div>
@@ -331,7 +345,7 @@
                     <div class="col-8">
                         <div class="row">
                             <h4 class="fw-bold title">OBVITNAS</h4>
-                            <p> PT. Smelting registered as National Vital Object by Ministry of Industry.
+                            <p> PT Smelting registered as National Vital Object by Ministry of Industry.
                             </p>
                         </div>
                     </div>
@@ -345,7 +359,7 @@
                     <div class="col-8">
                         <div class="row">
                             <h4 class="fw-bold title">ENVIRONMENTAL REPORT SUBMITTING OBEDIENCE</h4>
-                            <p> PT. Smelting obtained award from East Java Governor in 2015 for the Environmental Report Submitting Obedience.
+                            <p> PT Smelting obtained award from East Java Governor in 2015 for the Environmental Report Submitting Obedience.
                             </p>
                         </div>
                     </div>

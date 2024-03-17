@@ -8,8 +8,18 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
     <title>PT Smelting</title>
+   
     <link rel="stylesheet" href="/css/index.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
     <style>
+         *{
+            font-family: "Raleway", sans-serif;
+        }
+    </style>
+    <style>
+       
         .navbar-nav .dropdown-menu {
             background-color: #fff;
             
@@ -48,7 +58,7 @@
 
     <nav class="navbar navbar-expand-lg navbar-light  fixed-top navbar-scrolled ">
         <div class="container">
-            <a class="navbar-brand" href="#"><img class="logo" src="img/logosmelting.png" width="70"
+            <a class="navbar-brand" href="/"><img class="logo" src="img/logosmelting.png" width="70"
                     height="70"></a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
                 aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -100,6 +110,12 @@
                     <li class="nav-item mx-3">
                         <a class="nav-link text-light" href="#">Sitemap</a>
                     </li>
+                    <li class="nav-item mx-1">
+                        <a class="nav-link text-light fw-lighter" href="/">🇮🇩</a>
+                    </li>
+                    <li class="nav-item mx-1">
+                        <a class="nav-link text-light fw-lighter" href="/en">🇬🇧</a>
+                    </li>
                     
                 </ul>
             </div>
@@ -110,7 +126,11 @@
         <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
             <div class="carousel-inner">
                 <div class="carousel-item active">
-                    <video class="  d-block w-100   " controls autoplay muted loop style="pointer-events: none;">
+                    <video class="  d-block w-100   " 
+                    controls = “controls”
+                    controls preload = “auto” 
+                    autoplay = “autoplay” 
+                    loop muted playsinline >
                         <source src="img/mainvid.mp4" type="video/mp4">
                     </video>
                     
@@ -139,13 +159,10 @@
                 </div>
                 <div class="col-12 col-lg-6 d-flex flex-column justify-content-between ">
                     <div>
-                        <h2 class="fw-bolder ProfileTitle reveal">PT. Smelting : <span class="fw-light">Profile</span>
+                        <h2 class="fw-bolder ProfileTitle reveal">PT Smelting : <span class="fw-light">Profile</span>
                         </h2>
 
-                        <p class="reveal">PT. Smelting is the first copper smelter and refinery in Indonesia. PT.
-                            Smelting use Mitsubishi technology in Copper smelting process and ISA technology in copper
-                            refining process. Mitsubishi process is a continuous process of smelting and converting,
-                            with a friendly environment and economically.</p>
+                        <p class="reveal">PT Smelting adalah pabrik peleburan dan pabrik pengilangan tembaga pertama di Indonesia. PT Smelting menggunakan teknologi Mitsubishi dalam proses peleburan tembaga dan teknologi ISA dalam proses penyulingan tembaga. Proses Mitsubishi merupakan proses peleburan dan konversi yang kontinu, ramah lingkungan, dan ekonomis.</p>
                     </div>
                     <div class="d-flex justify-content-end reveal">
                         <button class="btn btn-success btnProfile"> <a class="text-white"

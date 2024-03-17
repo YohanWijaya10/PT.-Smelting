@@ -8,6 +8,14 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
     <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <style>
+         *{
+            font-family: "Raleway", sans-serif;
+        }
+    </style>
     <link rel="stylesheet" href="/css/AboutUs.css">
     <style>
         .navbar-nav .dropdown-menu {
@@ -83,6 +91,12 @@
                     <li class="nav-item mx-3">
                         <a class="nav-link text-light fw-ligter" href="#">Sitemap</a>
                     </li>
+                    <li class="nav-item mx-1">
+                        <a class="nav-link text-light fw-lighter" href="/">🇮🇩</a>
+                    </li>
+                    <li class="nav-item mx-1">
+                        <a class="nav-link text-light fw-lighter" href="/en">🇬🇧</a>
+                    </li>
                     
                 </ul>
             </div>
@@ -130,12 +144,11 @@
                 <div class="col-12 col-lg-6 d-flex flex-column justify-content-between align-items-center  ">
                     <div>
                         <div class="col-lg-9 profile m-3">
-                            <h2 class="fw-bolder ProfileTitle ">PT. Smelting : <span class="fw-light">Pioneering
-                                    Excellence in Copper Smelting and Refining in Indonesia</span>
+                            <h2 class="fw-bolder ProfileTitle ">PT Smelting : <span class="fw-light">Membuka jalan untuk keunggulan dalam peleburan dan pemurnian tembaga di Indonesia.</span>
                             </h2>
                         </div>
                         <button class=" btn btn-success btnProfile m-3 ">
-                            <a class="text-white" style="text-decoration: none" href="/overview">Read More</a>
+                            <a class="text-white" style="text-decoration: none" href="/overview">Baca Lebih Lanjut</a>
                         </button>
 
                     </div>
@@ -148,7 +161,7 @@
     <div class="row journey mt-5 reveal ">
         <div class="row m-5 content">
             <div class="row mt-5">
-                <h1 class="titleTimeline reveal"  >Perjalanan PT. Smelting</h1>
+                <h1 class="titleTimeline reveal"  >Perjalanan PT Smelting</h1>
                
                 <div class="row ">
                     <div class="col-6">
@@ -161,7 +174,7 @@
                 
                 <div class="row  mt-5 pt-5   " >
                     <div class="col"  >
-                        <button class="btn btn-success btntimeline " onclick="timeline1()">Read More</button>
+                        <button class="btn btn-success btntimeline " onclick="timeline1()">Baca Lebih Lanjut</button>
                     </div>
                     </div>
                     
@@ -171,38 +184,17 @@
 
     </div>
 
-    {{-- <div class="row mt-5 timeline">
-        <img class="desktop-image reveal" src="img/timelinenew.png" alt="">
-        <img class="mobile-image reveal" src="img/mobile.png" alt="">
-        <div class="row ContentTimeline m-1 mt-5 pt-5">
-            <div class="row col-7 m-4 ">
-                <h1 class="titleTimeline reveal">Perjalanan PT. Smelting</h1>
-                <div class="row"></div>
-                <h4 class="row-cols-3 subTitle reveal">PT Smelting mencapai sebuah milestone signifikan dengan berhasil meningkatkan kapasitas produksi pabriknya, mencapai target produksi yang belum pernah tercapai sebelumnya.</h4>
-                <div class="row row-cols-lg-5 mt-5 pt-5 m-1 ">
-                    <button class="btn btn-success btntimeline ">Read More</button>
-                </div>
-            </div>
-        </div>
-    </div> --}}
-
-    {{-- <div class=" row coba">
-        <img class="gambarcoba" src="img/timelinenew.png" alt="">
-    </div> --}}
+  
 
 
 
     <div class="container " >
         <div class="row mt-5 m-3">
             <div class="col-md">
-                <h2 class="fw-bold TitleVM reveal">Our<span class="fw-lighter"> Vision & Mission</span></h2>
-                <p class="mt-4 reveal">PT Smelting aims to contribute globally through sustainable copper smelting and
-                    refining, ensuring
-                    safe and environmentally friendly processes. The company prioritizes SCQDE values, adheres to
-                    responsible sourcing control, and integrates various management systems for continual improvement in
-                    safety, health, and overall operational performance.</p>
+                <h2 class="fw-bold TitleVM reveal">Visi & Misi<span class="fw-lighter"> Kami</span></h2>
+                <p class="mt-4 reveal">PT Smelting bertujuan untuk berkontribusi secara global melalui pemurnian dan peleburan tembaga yang berkelanjutan, memastikan proses yang aman dan ramah lingkungan. Perusahaan mengutamakan nilai SCQDE, mematuhi kontrol sumber yang bertanggung jawab, dan mengintegrasikan berbagai sistem manajemen untuk terus meningkatkan kinerja keselamatan, kesehatan, dan operasional secara keseluruhan.</p>
                 <div class="col mt-5 pt-4 " onclick="visionmission()" >
-                    <button class="btn btn-success btnvm reveal">Read More</button>
+                    <button class="btn btn-success btnvm reveal">Baca Lebih Lanjut</button>
                 </div>
             </div>
             <div class="col-md imagevm reveal">
@@ -214,8 +206,7 @@
     <div class="gallery mt-5 reveal ">
         <div class="row ">
             <div class="col m-5">
-                <h2 class="fw-bold titleTimeline reveal">Visual Journey: <span class="fw-lighter">PT Smelting Gallery
-                        in the Commitment to Sustainable Copper</span>
+                <h2 class="fw-bold titleTimeline reveal">Perjalanan Visual: <span class="fw-lighter">Galeri PT Smelting dalam Komitmen untuk Tembaga Berkelanjutan</span>
                 </h2>
                 <div class="col-10 m-5 imggalery justify-content-center ">
                     <div class="row align-items-center ">
@@ -230,11 +221,10 @@
                         </div>
                         <div class="col-10 m-2 col-md-3 m-md-0 d-flex justify-content-center">
                             <div class="row " onclick="gallery()">
-                                <h5 class="">See More →</h5>
+                                <h5 class="">Lihat Lebih Banyak →</h5>
                             </div>
                         </div>
                     </div>
-
                 </div>
             </div>
         </div>

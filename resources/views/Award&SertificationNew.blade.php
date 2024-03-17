@@ -9,6 +9,14 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
     <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <style>
+         *{
+            font-family: "Raleway", sans-serif;
+        }
+    </style>
 
     <style>
     .navbar-scrolled {
@@ -108,7 +116,7 @@ border: red 1px solid;
 <body>
     <nav class="navbar navbar-expand-lg navbar-light  fixed-top navbar-scrolled ">
         <div class="container">
-            <a class="navbar-brand" href="#"><img class="logo" src="img/logosmelting.png" width="70"
+            <a class="navbar-brand" href="/"><img class="logo" src="img/logosmelting.png" width="70"
                     height="70"></a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
                 aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -160,6 +168,12 @@ border: red 1px solid;
                     <li class="nav-item mx-3">
                         <a class="nav-link text-light fw-ligter" href="#">Sitemap</a>
                     </li>
+                    <li class="nav-item mx-1">
+                        <a class="nav-link text-light fw-lighter" href="/">🇮🇩</a>
+                    </li>
+                    <li class="nav-item mx-1">
+                        <a class="nav-link text-light fw-lighter" href="/en">🇬🇧</a>
+                    </li>
                     
                 </ul>
             </div>
@@ -188,7 +202,7 @@ border: red 1px solid;
     </div>
     <div class="container mt-5 pt">
         <div class="row ">
-            <h2 class="heading">PT. Smelting:<span class="fw-lighter"> Smelting Management System</span></h2>
+            <h2 class="heading">PT Smelting:<span class="fw-lighter"> Smelting Management System</span></h2>
         </div>
     </div>
 
@@ -202,13 +216,7 @@ border: red 1px solid;
                     <div class="col-8">
                         <div class="row">
                             <h4 class="fw-bold title">ISO 45001</h4>
-                            <p>PT. Smelting has implemented Occupational Safety and Health according to ISO 45001:2018
-                                in
-                                the integrated management system.As the first copper smelter and refinery in Indonesia,
-                                PT.
-                                Smelting has a major role in creating a safe working environment through the process
-                                improvement which is efficient, sound and environmentally friendly as a model for future
-                                copper smelter.
+                            <p>PT Smelting telah menerapkan Keselamatan dan Kesehatan Kerja sesuai dengan ISO 45001:2018 dalam sistem manajemen terpadu. Sebagai pabrik peleburan dan pengilangan tembaga pertama di Indonesia, PT Smelting memiliki peran utama dalam menciptakan lingkungan kerja yang aman melalui perbaikan proses yang efisien, bersuara, dan ramah lingkungan sebagai model bagi peleburan tembaga di masa depan.
                             </p>
                         </div>
                     </div>
@@ -222,10 +230,7 @@ border: red 1px solid;
                     <div class="col-8">
                         <div class="row">
                             <h4 class="fw-bold  title">ISO 14001</h4>
-                            <p>PT Smelting has a high and serious commitment to the environmental protection and
-                                environmental management by always trying to be environmentally friendly company. As a
-                                manifestation of this commitment is the implementation of Environmental Management
-                                Systems (ISO 14001: 2015) in the integrated management system.
+                            <p>PT Smelting memiliki komitmen tinggi dan serius terhadap perlindungan lingkungan dan manajemen lingkungan dengan selalu berusaha menjadi perusahaan yang ramah lingkungan. Sebagai manifestasi dari komitmen ini, PT Smelting menerapkan Sistem Manajemen Lingkungan (ISO 14001:2015) dalam sistem manajemen terpadu.
                             </p>
                         </div>
                     </div>
@@ -239,14 +244,7 @@ border: red 1px solid;
                     <div class="col-8">
                         <div class="row">
                             <h4 class="fw-bold  title">ISO 9001</h4>
-                            <p>ISO 9001 is well known as worldwide certification on quality management system (QMS). ISO
-                                9001 defines the standards of a quality management system to guarantee that the
-                                organization
-                                can produce the product or service based on requirement defined. These defined
-                                requirements
-                                are specific customer requirements, in which the organization responsible to guarantee
-                                the
-                                quality of its product or the market demand as defined by company.
+                            <p>ISO 9001 dikenal secara luas sebagai sertifikasi dunia untuk sistem manajemen mutu (QMS). ISO 9001 menetapkan standar sistem manajemen mutu untuk menjamin bahwa organisasi dapat menghasilkan produk atau layanan berdasarkan persyaratan yang ditetapkan. Persyaratan yang ditetapkan ini adalah persyaratan khusus pelanggan, di mana organisasi bertanggung jawab untuk menjamin kualitas produknya atau permintaan pasar yang ditetapkan oleh perusahaan.
                             </p>
                         </div>
                     </div>
@@ -260,12 +258,13 @@ border: red 1px solid;
                     <div class="col-8">
                         <div class="row">
                             <h4 class="fw-bold  title">Security Management System Implementation</h4>
-                            <p>PT. Smelting is determined as National Vital Object company (Obvitnas) based on decision
-                                from
-                                Industrial Ministry No. 466/M-IND/Kep/8/2014. Therefore, PT. Smelting implements
-                                security
-                                management system based on Police Regulation No. 7/2019 and got its certification on
-                                September 1, 2021 with gold level achievement.
+                            <p>PT Smelting ditetapkan sebagai perusahaan Objek Vital Nasional (Obvitnas) berdasarkan keputusan
+                                dari
+                                Kementerian Perindustrian No. 466/M-IND/Kep/8/2014. Oleh karena itu, PT Smelting menerapkan
+                                sistem
+                                manajemen keamanan berdasarkan Peraturan Kepolisian No. 7/2019 dan mendapatkan sertifikatnya
+                                pada
+                                tanggal 1 September 2021 dengan tingkat pencapaian emas.
                             </p>
                         </div>
                     </div>
@@ -280,12 +279,13 @@ border: red 1px solid;
                         <div class="row">
                             <h4 class="fw-bold  title">PROPER (Program of Company Performance Rating Assessment on
                                 Environmental Management)</h4>
-                            <p>PT. Smelting is determined as National Vital Object company (Obvitnas) based on decision
-                                from
-                                Industrial Ministry No. 466/M-IND/Kep/8/2014. Therefore, PT. Smelting implements
-                                security
-                                management system based on Police Regulation No. 7/2019 and got its certification on
-                                September 1, 2021 with gold level achievement.
+                            <p>PT Smelting ditetapkan sebagai perusahaan Objek Vital Nasional (Obvitnas) berdasarkan keputusan
+                                dari
+                                Kementerian Perindustrian No. 466/M-IND/Kep/8/2014. Oleh karena itu, PT Smelting menerapkan
+                                sistem
+                                manajemen keamanan berdasarkan Peraturan Kepolisian No. 7/2019 dan mendapatkan sertifikatnya
+                                pada
+                                tanggal 1 September 2021 dengan tingkat pencapaian emas.
                             </p>
                         </div>
                     </div>
@@ -299,10 +299,9 @@ border: red 1px solid;
                     <div class="col-8">
                         <div class="row">
                             <h4 class="fw-bold  title">GREEN INDUSTRY</h4>
-                            <p>The Green Industry Program is held by the Ministry of Industry which aims to continue to
-                                encourage all manufacturing sectors in Indonesia in the application of green industry
-                                principles in order to support the creation of environmentally friendly and competitive
-                                industries on the global scene.
+                            <p>Program Industri Hijau diselenggarakan oleh Kementerian Perindustrian yang bertujuan untuk terus
+                                mendorong semua sektor manufaktur di Indonesia dalam penerapan prinsip industri hijau
+                                untuk mendukung penciptaan industri yang ramah lingkungan dan kompetitif di panggung global.
                             </p>
                         </div>
                     </div>
@@ -316,12 +315,11 @@ border: red 1px solid;
                     <div class="col-8">
                         <div class="row">
                             <h4 class="fw-bold  title">5S</h4>
-                            <p>5 S is one of the methods of determining an organization approach to to evaluate its
-                                workplace organization capability & visual management standards. 5S engages people
-                                through
-                                the use of 'Standards' and ‘Discipline'. It is not just about housekeeping, but
-                                concentrating on maintaining the standards & discipline to manage the organization - all
-                                achieved by upholding & showing respect for the workplace every day.
+                            <p>5S adalah salah satu metode untuk menentukan pendekatan organisasi dalam mengevaluasi
+                                kemampuan organisasi dalam mengorganisasikan tempat kerja & standar manajemen visualnya. 5S melibatkan orang
+                                melalui penggunaan 'Standar' dan ‘Disiplin'. Ini bukan hanya tentang kebersihan, tetapi
+                                lebih fokus pada menjaga standar & disiplin untuk mengelola organisasi - semua dicapai
+                                dengan menjunjung tinggi & menunjukkan rasa hormat terhadap tempat kerja setiap hari.
                             </p>
                         </div>
                     </div>
@@ -335,9 +333,9 @@ border: red 1px solid;
                     <div class="col-8">
                         <div class="row">
                             <h4 class="fw-bold title">Occupational Safety and Health Management System Award</h4>
-                            <p> The implementation of Occupational Safety and Health Management System (SMK3) in the
-                                workplace has resulted in an achievement of 92.77% (Satisfactory) for the advanced level
-                                category.
+                            <p> Implementasi Sistem Manajemen Keselamatan dan Kesehatan Kerja (SMK3) di
+                                tempat kerja telah menghasilkan pencapaian sebesar 92,77% (Memuaskan) untuk kategori tingkat
+                                lanjut.
                             </p>
                         </div>
                     </div>
@@ -351,9 +349,9 @@ border: red 1px solid;
                     <div class="col-8">
                         <div class="row">
                             <h4 class="fw-bold title">LME</h4>
-                            <p> Copper Cathode registered in LME (London Metal Exchange) Grade A on July 2001.
-                                Notes : Since 2004, LME has announced to terminate the issuing of brand certificates and
-                                changed through the publication of Notice of listed brands at LME web site.
+                            <p> Copper Cathode terdaftar di LME (London Metal Exchange) Grade A pada bulan Juli 2001.
+                                Catatan: Sejak tahun 2004, LME telah mengumumkan untuk menghentikan penerbitan sertifikat merek dan
+                                mengubahnya melalui publikasi Notice of listed brands di situs web LME.
                             </p>
                         </div>
                     </div>
@@ -367,8 +365,8 @@ border: red 1px solid;
                     <div class="col-8">
                         <div class="row">
                             <h4 class="fw-bold title">BKPM</h4>
-                            <p> PT. Smelting achieved Yasa Ayodhya Adinugraha Award from Capital Investment Coordinating
-                                Board in September 2002
+                            <p> PT Smelting meraih Penghargaan Yasa Ayodhya Adinugraha dari Badan Koordinasi Penanaman Modal pada
+                                bulan September 2002.
                             </p>
                         </div>
                     </div>
@@ -382,8 +380,8 @@ border: red 1px solid;
                     <div class="col-8">
                         <div class="row">
                             <h4 class="fw-bold title">SMK3</h4>
-                            <p> January 2005 and February 2008, PT. Smelting achieved golden flag of OSH movement and
-                                last update in 2019 PTS returned to get the gold flag
+                            <p> Pada bulan Januari 2005 dan Februari 2008, PT Smelting meraih bendera emas dari gerakan Keselamatan dan Kesehatan
+                                Kerja (OSH), dan pada pembaruan terakhir pada tahun 2019, PT Smelting kembali meraih bendera emas.
                             </p>
                         </div>
                     </div>
@@ -397,8 +395,7 @@ border: red 1px solid;
                     <div class="col-8">
                         <div class="row">
                             <h4 class="fw-bold title">HALAL DECREE </h4>
-                            <p> Sulfuric acid (GSR) of PT. Smelting product has obtained halal decree from the
-                                Indonesian Council of Ulama of East Java since March 31, 2022
+                            <p> Asam sulfat (GSR) dari produk PT Smelting telah memperoleh keputusan halal dari Majelis Ulama Indonesia Jawa Timur sejak 31 Maret 2022.
                             </p>
                         </div>
                     </div>
@@ -412,8 +409,7 @@ border: red 1px solid;
                     <div class="col-8">
                         <div class="row">
                             <h4 class="fw-bold title">LME RESPONSIBLE SOURCING</h4>
-                            <p> Independent Assurance Report by KPMG Azusa Sustainability Co., Ltd. on May 24, 2023 with
-                                Red Flag Assessment report submitted to LME
+                            <p> Laporan Jaminan Independen oleh KPMG Azusa Sustainability Co., Ltd. pada 24 Mei 2023 dengan laporan Penilaian Bendera Merah yang diajukan ke LME.
                             </p>
                         </div>
                     </div>
@@ -442,7 +438,7 @@ border: red 1px solid;
                     <div class="col-8">
                         <div class="row">
                             <h4 class="fw-bold title">OBVITNAS</h4>
-                            <p> PT. Smelting registered as National Vital Object by Ministry of Industry.
+                            <p> Pemenang Kedua National Energy Efficiency Award 2014 dari MEMR (Kementerian Energi dan Sumber Daya Mineral) dalam kategori Sistem Manajemen Energi untuk Industri Besar.
                             </p>
                         </div>
                     </div>
@@ -456,8 +452,7 @@ border: red 1px solid;
                     <div class="col-8">
                         <div class="row">
                             <h4 class="fw-bold title">ENVIRONMENTAL REPORT SUBMITTING OBEDIENCE</h4>
-                            <p> PT. Smelting obtained award from East Java Governor in 2015 for the Environmental Report
-                                Submitting Obedience.
+                            <p> PT Smelting mendapatkan penghargaan dari Gubernur Jawa Timur pada tahun 2015 atas Ketaatan Pengajuan Laporan Lingkungan.
                             </p>
                         </div>
                     </div>

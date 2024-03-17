@@ -6,6 +6,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <style>
+         *{
+            font-family: "Raleway", sans-serif;
+        }
+    </style>
     <link rel="stylesheet" href="/css/headeraboutus.css">
     <link rel="stylesheet" href="/css/vm.css">
 
@@ -42,7 +50,7 @@
 <body>
     <nav class="navbar navbar-expand-lg navbar-light  fixed-top navbar-scrolled ">
         <div class="container">
-            <a class="navbar-brand" href="#"><img class="logo" src="img/logosmelting.png" width="70"
+            <a class="navbar-brand" href="/"><img class="logo" src="img/logosmelting.png" width="70"
                     height="70"></a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
                 aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -94,6 +102,12 @@
                     <li class="nav-item mx-3">
                         <a class="nav-link text-light fw-ligter" href="#">Sitemap</a>
                     </li>
+                    <li class="nav-item mx-1">
+                        <a class="nav-link text-light fw-lighter" href="/">🇮🇩</a>
+                    </li>
+                    <li class="nav-item mx-1">
+                        <a class="nav-link text-light fw-lighter" href="/en">🇬🇧</a>
+                    </li>
                     
                 </ul>
             </div>
@@ -124,7 +138,7 @@
     </nav>
     <div class="container mt-5 fore">
         <div class="row ">
-            <h2 class="heading">PT. Smelting:<span class="fw-lighter"> Vision & Mission</span></h2>
+            <h2 class="heading">PT Smelting:<span class="fw-lighter"> Vision & Mission</span></h2>
         </div>
     </div>
 
@@ -132,20 +146,18 @@
         <div class="row justify-content-around ">
             <div class="col-5">
                 <h4 class="foregreen fw-bold">Vision</h4>
-                <p>To contribute to sustainable development of the Local Community, the Republic of Indonesia and the
-                    World through our copper smelting and refining business.</p>
+                <p>Untuk berkontribusi pada pembangunan berkelanjutan Masyarakat Lokal, Republik Indonesia, dan Dunia melalui bisnis peleburan dan pemurnian tembaga kami.</p>
             </div>
             <div class="col-5">
                 <h4 class="foregreen fw-bold">Mission</h4>
-                <p>To realize safe, healthy and environmentally friendly process in the plant in order to deliver the
-                    highest quality of copper cathode and by-products to our customers stably.</p>
+                <p>Untuk mewujudkan proses yang aman, sehat, dan ramah lingkungan di pabrik guna memberikan kualitas katode tembaga dan produk sampingan tertinggi secara stabil kepada pelanggan kami.</p>
             </div>
 
         </div>
     </div>
     <div class="container mt-5 fore ">
         <div class="row ">
-            <h4 class="heading">RESPONSIBLE SOURCING CONTROL POLICY<span class="fw-lighter"></span></h4>
+            <h4 class="heading">KEBIJAKAN PENGENDALIAN SUMBER YANG BERTANGGUNG JAWAB<span class="fw-lighter"></span></h4>
         </div>
     </div>
     <div class="container mt-3 ">
@@ -159,13 +171,10 @@
     <div class="container mt-5 ">
         <div class="row">
             <div class="col-11">
-                <h4 class="heading fore">INTEGRATED MANAGEMENT SYSTEM POLICY OF PT SMELTING<span class="fw-lighter"></span>
+                <h4 class="heading fore">KEBIJAKAN SISTEM MANAJEMEN TERPADU PT SMELTING<span class="fw-lighter"></span>
                 </h4>
                 <p>
-                    PT Smelting strives to produce world’s best quality of copper cathodes and its by-products to be
-                    reputable company with reliable and sustainable performance, through the implementation of various
-                    management systems integrated as one such as occupational safety and health, environmental, quality,
-                    halal insurance and security with commitment to:
+                    PT Smelting berusaha untuk menghasilkan kualitas katode tembaga terbaik di dunia beserta produk sampingannya, dengan tujuan menjadi perusahaan yang terkemuka dengan kinerja yang dapat diandalkan dan berkelanjutan. Hal ini dicapai melalui implementasi berbagai sistem manajemen yang terintegrasi, seperti keselamatan dan kesehatan kerja, lingkungan, kualitas, asuransi halal, dan keamanan, dengan komitmen untuk:
                 </p>
             </div>
         </div>
@@ -174,20 +183,19 @@
         <div class="row">
             <div class="col">
                 <ol>
-                    <li >Implement SCQDE (Safety-Compliance-Quality-Delivery-Earning) values in every activity.</li>
-                    <li class="py-1">To produce copper cathode and by-products by putting safety and health to prevent accidents and ill health as first priority as well as considering environmental impact with focusing on quality fulfilment required by our customers and production efficiency.</li>
-                    <li class="py-1">To make efforts to eliminate potential hazards including root cause analysis against accident regrettably happened and to reduce safety and health risks as well as preventing damage to facilities and infrastructures through hazard identification, risk analysis, control monitor mechanism to realize a safe and healthy working environment.</li>
-                    <li class="py-1">To comply with regulations and requirements related to our business in the regional, national and international level.</li>
-                    <li class="py-1">To conduct environmental protection, conservation of natural resources, along with preventing environmental pollution to contribute to Sustainable Development Goals (SDGs) achievement based on environmental aspect impact assessment carried out through a Life Cycle Assessment study.</li>
-                    <li class="py-1">To conduct various efforts in managing, improving and protecting the environment consistently through emissions reduction for both conventional and greenhouse gases, as contribution to prevent global warming, and reduction of wastewater pollutant load, reduction and utilization of hazardous and nonhazardous waste in accordance with the 3R principle (Reduce, Reuse & Recycle) and to protect and conserve biodiversity.</li>
-                    <li class="py-1">To implement green industry principles in company operation to support an effort for the efficiency of production process, energy, water and the use of other resources.</li>
-                    <li class="py-1">To develop and promote corporate social responsibility (CSR) toward stakeholders based on our principle of corporate governance.</li>
-                    <li class="py-1">To make efforts to socialize the hazards of HIV/AIDS in the workplace to prevent the spread of the disease.</li>
-                    <li class="py-1">To conduct prevention, deterrence and countermeasure towards every imminent security threat and disturbance as well as enforcement of applicable law and company internal regulation by implementation of security management system.</li>
-                    <li class="py-1">To provide halal sulphuric acid product by implementation of halal assurance system.</li>
-                    <li class="py-1">To communicate all implemented management systems to the workers and to involve workers including worker’s representatives at all levels to the improvement of the system.</li>
-                    <li class="py-1">To make continual improvement to improve occupational safety and health performance, to become a more socially and environmentally conscious company and to achieve more customer satisfaction through innovation and improvement proposals (kaizen) culture, provision of resources and improving quality of human resource by providing education and training continuously.</li>
-                    
+                    <li>Implementasikan nilai SCQDE (Safety-Compliance-Quality-Delivery-Earning) dalam setiap aktivitas.</li>
+                    <li class="py-1">Memproduksi katode tembaga dan produk sampingan dengan menjadikan keselamatan dan kesehatan sebagai prioritas utama untuk mencegah kecelakaan dan penyakit, serta mempertimbangkan dampak lingkungan dengan fokus pada pemenuhan kualitas yang dibutuhkan oleh pelanggan dan efisiensi produksi.</li>
+                    <li class="py-1">Berusaha menghilangkan potensi bahaya, termasuk analisis akar penyebab terhadap kecelakaan yang sayangnya terjadi, dan mengurangi risiko keselamatan dan kesehatan serta mencegah kerusakan pada fasilitas dan infrastruktur melalui identifikasi bahaya, analisis risiko, dan mekanisme pemantauan kontrol untuk menciptakan lingkungan kerja yang aman dan sehat.</li>
+                    <li class="py-1">Patuh terhadap regulasi dan persyaratan terkait bisnis kami di tingkat regional, nasional, dan internasional.</li>
+                    <li class="py-1">Melakukan perlindungan lingkungan, konservasi sumber daya alam, serta mencegah polusi lingkungan untuk berkontribusi pada pencapaian Sustainable Development Goals (SDGs) berdasarkan penilaian dampak lingkungan melalui studi Life Cycle Assessment.</li>
+                    <li class="py-1">Melakukan berbagai upaya dalam pengelolaan, perbaikan, dan perlindungan lingkungan secara konsisten melalui pengurangan emisi baik gas konvensional maupun rumah kaca, sebagai kontribusi untuk mencegah pemanasan global, serta pengurangan beban polutan limbah cair, pengurangan dan pemanfaatan limbah berbahaya dan non-berbahaya sesuai dengan prinsip 3R (Reduce, Reuse & Recycle) dan untuk melindungi serta melestarikan keanekaragaman hayati.</li>
+                    <li class="py-1">Menerapkan prinsip industri hijau dalam operasional perusahaan untuk mendukung upaya efisiensi proses produksi, energi, air, dan penggunaan sumber daya lainnya.</li>
+                    <li class="py-1">Mengembangkan dan mempromosikan tanggung jawab sosial perusahaan (CSR) terhadap pemangku kepentingan berdasarkan prinsip tata kelola perusahaan.</li>
+                    <li class="py-1">Berusaha untuk mensosialisasikan bahaya HIV/AIDS di tempat kerja untuk mencegah penyebaran penyakit.</li>
+                    <li class="py-1">Melakukan pencegahan, pencegahan, dan tindakan pencegahan terhadap setiap ancaman keamanan yang mendekat serta penegakan hukum yang berlaku dan peraturan internal perusahaan melalui implementasi sistem manajemen keamanan.</li>
+                    <li class="py-1">Menyediakan produk asam sulfat halal melalui implementasi sistem jaminan halal.</li>
+                    <li class="py-1">Berkomunikasi semua sistem manajemen yang diimplementasikan kepada pekerja dan melibatkan pekerja termasuk perwakilan pekerja di semua tingkatan untuk perbaikan sistem.</li>
+                    <li class="py-1">Melakukan perbaikan berkelanjutan untuk meningkatkan kinerja keselamatan dan kesehatan kerja, menjadi perusahaan yang lebih sadar sosial dan lingkungan, dan mencapai kepuasan pelanggan yang lebih tinggi melalui budaya inovasi dan perbaikan (kaizen), penyediaan sumber daya, dan peningkatan kualitas sumber daya manusia dengan memberikan pendidikan dan pelatihan secara berkelanjutan.</li>
                 </ol>
             </div>
         </div>

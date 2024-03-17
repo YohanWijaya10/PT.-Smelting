@@ -9,6 +9,14 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
     <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <style>
+         *{
+            font-family: "Raleway", sans-serif;
+        }
+    </style>
     <style>
         .footer {
             max-width: 100%;
@@ -56,7 +64,7 @@
 <body>
     <nav class="navbar navbar-expand-lg navbar-light  fixed-top navbar-scrolled ">
         <div class="container">
-            <a class="navbar-brand" href="#"><img class="logo" src="img/logosmelting.png" width="70"
+            <a class="navbar-brand" href="/"><img class="logo" src="img/logosmelting.png" width="70"
                     height="70"></a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
                 aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -108,7 +116,12 @@
                     <li class="nav-item mx-3">
                         <a class="nav-link text-light fw-ligter" href="#">Sitemap</a>
                     </li>
-                    
+                    <li class="nav-item mx-1">
+                        <a class="nav-link text-light fw-lighter" href="/">🇮🇩</a>
+                    </li>
+                    <li class="nav-item mx-1">
+                        <a class="nav-link text-light fw-lighter" href="/en">🇬🇧</a>
+                    </li>
                 </ul>
             </div>
         </div>
@@ -153,61 +166,62 @@
 
     <div class="container mt-5">
         <div class="row">
-            <h3 class="fw-bolder ProfileTitle fore ">PT. Smelting : <span class="fw-light">Pioneering Excellence in Copper
-                    Smelting and Refining in Indonesia</span>
-            </h3>
+            <h3 class="fw-bolder ProfileTitle fore">PT Smelting: <span class="fw-light">Mengawali Keunggulan dalam
+                    Peleburan dan Pengilangan Tembaga di Indonesia</span></h3>
             <div class="row mt-3">
                 <p>
-                    PT. Smelting is the first copper smelter and refinery in Indonesia. Establishment of PT. Smelting
-                    began
-                    when PT. Freeport Indonesia invites Mitsubishi Materials Corporation (MMC) to work together to build
-                    a
-                    copper smelter and refinery in Indonesia in 1994. Construction of PT. Smelting started from 1996 to
-                    1998. At the beginning of its establishment, PT. Smelting plant is designed to produce 200,000 tones
-                    of
-                    copper cathode per year. PT. Smelting then carried out three times expansion in 2004, 2006, and 2009
-                    so
-                    that production capacity increased to 300,000 tones of copper per year.
+                    PT Smelting adalah peleburan dan pengilangan tembaga pertama di Indonesia. Pendirian PT Smelting
+                    dimulai
+                    ketika PT. Freeport Indonesia mengundang Mitsubishi Materials Corporation (MMC) untuk bekerja sama
+                    membangun
+                    peleburan dan pengilangan tembaga di Indonesia pada tahun 1994. Konstruksi PT Smelting dimulai dari
+                    tahun
+                    1996 hingga 1998. Pada awal pendiriannya, pabrik PT Smelting dirancang untuk memproduksi 200.000 ton
+                    katoda
+                    tembaga per tahun. PT Smelting kemudian melakukan ekspansi tiga kali pada tahun 2004, 2006, dan 2009
+                    sehingga kapasitas produksinya meningkat menjadi 300.000 ton tembaga per tahun.
                 </p>
                 <p>
-                    PT. Smelting use Mitsubishi technology in Copper smelting process and ISA technology in copper
-                    refining
-                    process. Mitsubishi process is a continuous process of smelting and converting, with a friendly
-                    environment and economically because it is able to produce anode copper with high purity, low
-                    emissions,
-                    and higher concentration of SO2 in the flue gas. ISA technology is able to produce cathode copper
-                    with a
-                    purity of 99.99% (LME Grade A) with a high operating time, high labor productivity, and high levels
-                    of
-                    safety and low production costs.
+                    PT Smelting menggunakan teknologi Mitsubishi dalam proses peleburan tembaga dan teknologi ISA dalam
+                    proses
+                    pengilangan tembaga. Proses Mitsubishi adalah proses peleburan dan konversi yang kontinu, ramah
+                    lingkungan,
+                    dan ekonomis karena mampu menghasilkan tembaga anoda dengan kemurnian tinggi, emisi rendah, dan
+                    konsentrasi
+                    SO2 yang tinggi dalam gas buangnya. Teknologi ISA mampu menghasilkan tembaga katoda dengan kemurnian
+                    99,99%
+                    (LME Grade A) dengan waktu operasi tinggi, produktivitas kerja tinggi, tingkat keselamatan tinggi, dan
+                    biaya produksi rendah.
                 </p>
                 <p>
-                    From PT. Smelting copper processing process, there are some by products produced namely sulfuric
-                    acid,
-                    copper slag, gypsum, anode slime and copper telluride. All these products can be sold and used by
-                    many
-                    consumers at domestic and abroad. PT. Smelting always keep the waste not to exceed determined
-                    threshold
-                    and comply with standards and environmental laws and regulations that have been established.
+                    Dari proses pengolahan tembaga PT Smelting, terdapat beberapa produk samping yang dihasilkan yaitu
+                    asam
+                    sulfat, terak tembaga, gipsum, lendir anoda, dan tembaga telluride. Semua produk ini dapat dijual dan
+                    digunakan oleh banyak konsumen di dalam negeri dan luar negeri. PT Smelting selalu menjaga limbah
+                    agar tidak
+                    melebihi ambang batas yang ditentukan dan mematuhi standar serta hukum lingkungan yang telah
+                    ditetapkan.
                 </p>
                 <p>
-                    PT. Smelting has a vision to become the copper smelter and refinery plant which has a reputation and
-                    the
-                    world's most reliable and environmentally friendly. PT. Smelting has obtained ISO 9001 and ISO
-                    14001.
-                    Additionally PT. Smelting also implemented 5S program to always maintain optimum productivity and
-                    implementing Kaizen for continual improvement. Various awards have been achieved by PT. Smelting,
-                    such
-                    as: PROPER Green, Green Industry Award, 2nd Place in the national energy efficiency awards.
-                    PT. Smelting also actively involved in empowering the community through the Community Development in
-                    the
-                    field of health, education, and environment physical development, conservation of biological
-                    diversity,
-                    entrepreneurship, and religion.
+                    PT Smelting memiliki visi untuk menjadi pabrik peleburan dan pengilangan tembaga yang memiliki
+                    reputasi
+                    dan paling dapat diandalkan di dunia serta ramah lingkungan. PT Smelting telah memperoleh ISO 9001 dan
+                    ISO
+                    14001. Selain itu, PT Smelting juga menerapkan program 5S untuk selalu menjaga produktivitas optimum
+                    dan
+                    menerapkan Kaizen untuk perbaikan terus-menerus. Berbagai penghargaan telah diraih oleh PT Smelting,
+                    seperti: PROPER Hijau, Penghargaan Green Industry, Peringkat 2 dalam penghargaan efisiensi energi
+                    nasional.
+                    PT Smelting juga aktif terlibat dalam memberdayakan masyarakat melalui Pengembangan Masyarakat di
+                    bidang
+                    kesehatan, pendidikan, pembangunan fisik lingkungan, konservasi keanekaragaman hayati, kewirausahaan,
+                    dan
+                    agama.
                 </p>
             </div>
         </div>
     </div>
+    
     <div class="container footer footerpad mt-5 ">
         <div class="row justify-content-center align-items-center">
             <div class="col-md-4 col-12 imgfooter m-2">

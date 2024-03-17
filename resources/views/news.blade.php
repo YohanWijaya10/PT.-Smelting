@@ -8,6 +8,14 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
     <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <style>
+         *{
+            font-family: "Raleway", sans-serif;
+        }
+    </style>
     <style>
         .navbar-scrolled {
             background-color: #0f6456;
@@ -22,9 +30,7 @@
 
         }
 
-        .navbar {
-            overflow-x: hidden;
-        }
+       
 
 
         /* *{
@@ -93,15 +99,15 @@
             color: #0F6456;
         }
     </style>
-     <style>
+    <style>
         .navbar-nav .dropdown-menu {
             background-color: #fff;
-            
+
         }
 
         .navbar-nav .dropdown-item {
             color: #333;
-            
+
         }
 
         .navbar-nav .dropdown-item:hover,
@@ -123,9 +129,9 @@
             </button>
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav ms-auto ">
-                    <li class="nav-item dropdown  mx-3"> 
-                        <a class="nav-link dropdown-toggle text-white fw-lighter" href="#" id="navbarDropdown" role="button"
-                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    <li class="nav-item dropdown  mx-3">
+                        <a class="nav-link dropdown-toggle text-white fw-lighter" href="#" id="navbarDropdown"
+                            role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                             About us
                         </a>
                         <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
@@ -133,13 +139,13 @@
                             <li><a class="dropdown-item" href="/managementsystem">Management System</a></li>
                             <li><a class="dropdown-item" href="/award&sertification">Award & Sertification</a></li>
                             <li><a class="dropdown-item" href="/jobopportunity">Job Opportunity</a></li>
-                            
+
                         </ul>
                     </li>
-                    
+
                     <li class="nav-item dropdown  mx-3 text-light">
-                        <a class="nav-link dropdown-toggle text-white fw-lighter" href="#" id="navbarDropdown" role="button"
-                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        <a class="nav-link dropdown-toggle text-white fw-lighter" href="#" id="navbarDropdown"
+                            role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                             Process
                         </a>
                         <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
@@ -149,7 +155,7 @@
                             <li><a class="dropdown-item" href="/refinery">Refinery</a></li>
                             <li><a class="dropdown-item" href="/acidplant">Acid Plant & WWTP</a></li>
                             <li><a class="dropdown-item" href="/supportfacility">Support Facility</a></li>
-                            
+
                         </ul>
                     </li>
                     <li class="nav-item mx-3">
@@ -167,7 +173,13 @@
                     <li class="nav-item mx-3">
                         <a class="nav-link text-light fw-lighter" href="#">Sitemap</a>
                     </li>
-                    
+                    <li class="nav-item mx-1">
+                        <a class="nav-link text-light fw-lighter" href="/">🇮🇩</a>
+                    </li>
+                    <li class="nav-item mx-1">
+                        <a class="nav-link text-light fw-lighter" href="en">🇬🇧</a>
+                    </li>
+
                 </ul>
             </div>
         </div>
@@ -182,16 +194,27 @@
         </div>
     </div>
 
+
     <div class="container">
         <div class="container m-3 mt-5">
             <div class="row m-md-5">
-                <h2 class="fw-bolder profileTitle ">News<span class="fw-light"> From Smelting</span>
+                <h2 class="fw-bolder profileTitle ">News<span class="fw-light"> From Smelting : Publikasi</span>
                 </h2>
+            </div>
+        </div>
+        <div class="container text-center">
+            <div class="row d-flex justify-content-center ">
+                <div class="col-lg-2 col-md-6 col-3 mt-0 Submenu fw-bolder"><a class="text-black"
+                        style="text-decoration:none" href="/news">Publikasi</a></div>
+                <div class="col-lg-2 col-md-6 col-5 mt-0 Submenu fw-lighter"><a class="text-black-50"
+                        style="text-decoration:none" href="/siaranpers">Siaran Pers</a>
+                </div>
+
             </div>
         </div>
 
         <div class="container m-3 mt-5">
-            <div class="row justify-content-center " onclick="pindahKeBerita1()" >
+            <div class="row justify-content-center " onclick="pindahKeBerita1()">
                 <div class="col-md-3 col-auto imgnews">
                     <img src="img/beritaProperHijau.jpeg" alt="">
                 </div>
@@ -342,7 +365,8 @@
                 </div>
                 <div class="row justify-content-end mt-3">
                     <div class="col-auto ">
-                        <button type="button" class="btn  align-self-end btngreen" onclick="gallery()">Read More...</button>
+                        <button type="button" class="btn  align-self-end btngreen" onclick="gallery()">Read
+                            More...</button>
                     </div>
                 </div>
             </div>
@@ -429,9 +453,9 @@
             }
         });
     </script>
-     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
-     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.2/dist/umd/popper.min.js"></script>
-     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.2/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 </body>
 
 </html>

@@ -8,6 +8,14 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
     <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <style>
+         *{
+            font-family: "Raleway", sans-serif;
+        }
+    </style>
     <link rel="stylesheet" href="/css/AboutUs.css">
     <style>
         .imageprocess {
@@ -107,6 +115,12 @@
                         <li class="nav-item mx-3">
                             <a class="nav-link text-light fw-lighter" href="#">Sitemap</a>
                         </li>
+                        <li class="nav-item mx-1">
+                            <a class="nav-link text-light fw-lighter" href="/">🇮🇩</a>
+                        </li>
+                        <li class="nav-item mx-1">
+                            <a class="nav-link text-light fw-lighter" href="/en">🇬🇧</a>
+                        </li>
                     </ul>
             </div>
         </div>
@@ -139,13 +153,13 @@
     </div>
     <div class="container mt-5 fore">
         <div class="row ">
-            <h2 class="heading">PT. Smelting:<span class="fw-lighter"> Acid Plant & WWTP</span></h2>
+            <h2 class="heading">PT Smelting:<span class="fw-lighter"> Acid Plant & WWTP</span></h2>
         </div>
     </div>
 
     <div class="container mt-4 fore">
         <div class="row ">
-            <h3 class="heading foregreen">Lurgi Mitsubishi Process<span class="fw-lighter"></span></h3>
+            <h3 class="heading foregreen">Proses Lurgi Mitsubishi<span class="fw-lighter"></span></h3>
         </div>
     </div>
 
@@ -161,20 +175,66 @@
 <br>
     <div class="container fore">
         <div class="row  mt-5 ">
-            <h3 class="heading fw-bold foregreen">Process Description<span class="fw-lighter"></span></h3>
+            <h3 class="heading fw-bold foregreen">Deskripsi Proses<span class="fw-lighter"></span></h3>
         </div>
     </div>
 
-    <div class="container ">
-        <div class="row">
-            <div class="col-md-8  mb-5 imgr">
-                <img class="mt-3" src="img/ap1.png" alt="">
-                <img class="mt-2" src="img/ap2.png" alt="">
-                <img class="mt-2" src="img/ap3.png" alt="">
-                <img class="mt-2" src="img/ap4.png" alt="">
+    <div class="container">
+        <div class="row justify-content-center mb-5 mt-3">
+            <div class="col-md-3   imageprocess">
+                <img src="/img/apw1.png" alt="">
+            </div>
+            <div class="col">
+                <h4 class="heading fw-bold foregreen">1. Bagian Pembersihan Gas<span class="fw-lighter"></span></h4>
+                <p class=" mb-5">Konsentrat tembaga diterima melalui kapal di dermaga yang dapat menampung kapal
+                    konsentrat
+                    dengan kapasitas hingga 35.000 ton. Dermaga sepanjang 2 km dibangun untuk mencapai kedalaman air yang
+                    cukup. Sebuah dermaga dibangun di ujung jeti. Unloader dengan clam shell bucket, kapasitas cakupan 350
+                    t/jam, ship loader untuk slag, dan conveyor belt bolak-balik dipasang. Unloaded concentrate is delivered
+                    to concentrate
+                </p>
             </div>
         </div>
     </div>
+    <div class="container">
+        <div class="row justify-content-center mb-5 mt-3">
+            <div class="col-md-3   imageprocess">
+                <img src="/img/apw2.png" alt="">
+            </div>
+            <div class="col">
+                <h4 class="heading fw-bold foregreen">2. Menara Pengeringan (Drying Tower) dan Blower Gas Utama<span class="fw-lighter"></span></h4>
+                <p class=" mb-5">Konsentrat tembaga diterima melalui kapal di dermaga yang dapat menampung kapal konsentrat dengan kapasitas hingga 35.000 ton. Dermaga sepanjang 2 km dibangun untuk mencapai kedalaman air yang cukup. Sebuah dermaga dibangun di ujung jeti. Unloader dengan clam shell bucket, kapasitas cakupan 350 t/jam, ship loader untuk slag, dan conveyor belt bolak-balik dipasang. Unloaded concentrate is delivered to concentrate
+
+
+                </p>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row justify-content-center mb-5 mt-3">
+            <div class="col-md-3   imageprocess">
+                <img src="/img/apw3.png" alt="">
+            </div>
+            <div class="col">
+                <h4 class="heading fw-bold foregreen">3. Konverter<span class="fw-lighter"></span></h4>
+                <p class=" mb-5">Gas SO2 yang telah dikeringkan diubah menjadi SO3 oleh empat bed katalis Vanadium pentaoxide (V2O5) yang memiliki tingkat konversi SO2 keseluruhan lebih dari 99,8%.
+                </p>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row justify-content-center mb-5 mt-3">
+            <div class="col-md-3   imageprocess">
+                <img src="/img/apw4.png" alt="">
+            </div>
+            <div class="col">
+                <h4 class="heading fw-bold foregreen">4. Menara Penyerapan<span class="fw-lighter"></span></h4>
+                <p class=" mb-5">Gas SO3 yang keluar dari bed katalis ketiga diserap ke dalam asam sulfat pada Menara Penyerapan Menengah (Intermediate Absorption Tower/IAT). Gas SO3 yang keluar dari bed katalis terakhir diserap ke dalam asam sulfat pada Menara Penyerapan Akhir (Final Absorption Tower/FAT) untuk menghasilkan asam sulfat.
+                </p>
+            </div>
+        </div>
+    </div>
+
     
     <div class="container fore">
         <div class="row  mt-5 ">
@@ -194,7 +254,7 @@
         <div class="row mb-5">
             <div class="col-auto">
                 <p class="">
-                    PT. Smelting utilizes 3 steps of waste water treatment to ensure the discharge water to the sea within the limit of stringent east java effluent standard. Gypsum product is delivered to the cement industry. Sludge cake formed in the sludge section which contains heavy metals is recycled back to the smelter.
+                    PT Smelting utilizes 3 steps of waste water treatment to ensure the discharge water to the sea within the limit of stringent east java effluent standard. Gypsum product is delivered to the cement industry. Sludge cake formed in the sludge section which contains heavy metals is recycled back to the smelter.
                 </p>
             </div>
         </div>

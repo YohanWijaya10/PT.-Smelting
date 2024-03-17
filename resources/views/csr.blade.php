@@ -8,6 +8,14 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
     <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <style>
+         *{
+            font-family: "Raleway", sans-serif;
+        }
+    </style>
     <link rel="stylesheet" href="/css/AboutUs.css">
     <style>
         .imageprocess {
@@ -100,6 +108,12 @@
                     <li class="nav-item mx-3">
                         <a class="nav-link text-light fw-lighter" href="#">Sitemap</a>
                     </li>
+                    <li class="nav-item mx-1">
+                        <a class="nav-link text-light fw-lighter" href="/">🇮🇩</a>
+                    </li>
+                    <li class="nav-item mx-1">
+                        <a class="nav-link text-light fw-lighter" href="/en">🇬🇧</a>
+                    </li>
                 </ul>
             </div>
         </div>
@@ -116,136 +130,120 @@
 
     <div class="container mt-5 fore">
         <div class="row ">
-            <h2 class="heading">PT. Smelting:<span class="fw-lighter"> CSR Activity </span></h2>
+            <h2 class="heading">PT Smelting:<span class="fw-lighter"> Aktivitas CSR </span></h2>
         </div>
     </div>
+    
     <div class="container mt-4">
         <div class="row ">
             <div class="col-md-10">
-                <h4 class="fw-bold foregreen">COMMUNITY DEVELOPMENT</h4>
+                <h4 class="fw-bold foregreen">PEMBANGUNAN MASYARAKAT</h4>
                 <p class="">
-                    In Quality and Environment Policies, PT. Smelting is committed to always conduct and develop
-                    sustainable CSR activities for all stakeholders based on Good Corporate Governance.
+                    Dalam Kebijakan Kualitas dan Lingkungan, PT Smelting berkomitmen untuk selalu melakukan dan mengembangkan kegiatan CSR yang berkelanjutan bagi semua pemangku kepentingan berdasarkan Tata Kelola Perusahaan yang Baik.
                     <br>
                     <br>
-                    It always maintains sustainable commitment to behave ethically and contribute to economic
-                    development also improve the quality of life of manpower and their families as well as local
-                    communities.
+                    Perusahaan selalu menjaga komitmen berkelanjutan untuk berperilaku secara etis dan berkontribusi pada pengembangan ekonomi serta meningkatkan kualitas hidup tenaga kerja dan keluarganya serta masyarakat lokal.
                     <br>
                     <br>
-                    PT. Smelting has conducted and will keep conducting activities related to social responsibility, as
-                    follow :
-
+                    PT Smelting telah melakukan dan akan terus melakukan kegiatan terkait tanggung jawab sosial, seperti berikut ini:
                     <br>
-                    <span class="fw-bold"> It conducts social actions (including life environment) more than the limits
-                        demanded by
-                        regulations.</span>
+                    <span class="fw-bold">Melakukan tindakan sosial (termasuk lingkungan hidup) melebihi batas yang dituntut oleh peraturan.</span>
                 </p>
             </div>
         </div>
     </div>
+    
     <div class="container mt-3">
         <div class="row  mb-5">
             <div class="col-md-10">
-                <h4 class="fw-bold foregreen">THE PRINCIPLES OF SOCIAL RESPONSIBILITY OF PT. SMELTING</h4>
-                <p class="fw-bold my-1">1. Independent</p>
+                <h4 class="fw-bold foregreen">PRINSIP-PRINSIP TANGGUNG JAWAB SOSIAL PT Smelting</h4>
+                <p class="fw-bold my-1">1. Independen</p>
                 <p class="">
-                    Like the Code of Corporate Conduct, PT. Smelting is committed and has good faith to always care
-                    about social, community, and environment.
+                    Seperti Kode Etik Perusahaan, PT Smelting berkomitmen dan memiliki niat baik untuk selalu peduli terhadap sosial, masyarakat, dan lingkungan.
                 </p>
-                <p class="fw-bold my-1">2. Effective</p>
+                <p class="fw-bold my-1">2. Efektif</p>
                 <p class="">
-                    It can be felt directly by social communities
+                    Dapat dirasakan langsung oleh masyarakat sosial.
                 </p>
-                <p class="fw-bold my-1">3. Precise</p>
+                <p class="fw-bold my-1">3. Tepat</p>
                 <p class="">
-                    It precisely directs to social community components that require.
+                    Langsung mengarah ke komponen masyarakat sosial yang membutuhkan.
                 </p>
-                <p class="fw-bold my-1">4. Mutually Beneficial</p>
+                <p class="fw-bold my-1">4. Saling Menguntungkan</p>
                 <p class="">
-                    Both the Company and social community can feel the benefits.
+                    Baik Perusahaan maupun masyarakat sosial dapat merasakan manfaatnya.
                 </p>
             </div>
         </div>
     </div>
+    
     <div class="container mt-4">
         <div class="row ">
             <div class="col-md-10">
-                <h4 class="fw-bold foregreen">MANAGEMENT OF COMMUNITY DEVELOPMENT</h4>
+                <h4 class="fw-bold foregreen">MANAJEMEN PEMBANGUNAN MASYARAKAT</h4>
                 <p class="">
-                    In carrying out CSR programs, PT. Smelting is committed to always conduct sustainable Community
-                    Development programs that hold on 4 pillars as follows :
+                    Dalam menjalankan program CSR, PT Smelting berkomitmen untuk selalu melakukan program Pembangunan Masyarakat yang berkelanjutan yang didasarkan pada 4 pilar berikut:
                 </p>
             </div>
         </div>
     </div>
-
-
-
-
-
-
-
+    
     <div class="container mt-1">
         <div class="row   mb-2">
             <div class="col-md-4  mt-3 imageprocess ">
                 <img src="/img/csr1.png" alt="">
             </div>
             <div class="col-md-7 mt-3">
-                <h4 class="fw-bold foregreen">Education</h4>
+                <h4 class="fw-bold foregreen">Pendidikan</h4>
                 <p class="">
-                    PT. Smelting consistently support community, especially for surrounding area, to improve their
-                    education quality, through education incentive program for poor teachers and students, education
-                    facility contribution, students scholarship program, and to develop village library to stimulate the
-                    community reading interest.
+                    PT Smelting secara konsisten mendukung masyarakat, terutama di sekitar, untuk meningkatkan kualitas pendidikan mereka, melalui program insentif pendidikan bagi guru dan siswa miskin, kontribusi fasilitas pendidikan, program beasiswa siswa, dan pengembangan perpustakaan desa untuk merangsang minat membaca masyarakat.
                 </p>
             </div>
         </div>
     </div>
+    
     <div class="container mt-2">
         <div class="row   mb-2">
             <div class="col-md-4  mt-3 imageprocess ">
                 <img src="/img/csr2.png" alt="">
             </div>
             <div class="col-md-7 mt-3">
-                <h4 class="fw-bold foregreen">Health</h4>
+                <h4 class="fw-bold foregreen">Kesehatan</h4>
                 <p class="">
-                    In the matter of health, PT. Smelting participates in improving the health quality of Gresik
-                    community through health service programs in collaboration with Gresik Government and hospitals.
+                    Dalam hal kesehatan, PT Smelting berpartisipasi dalam meningkatkan kualitas kesehatan masyarakat Gresik melalui program layanan kesehatan bekerja sama dengan Pemerintah Gresik dan rumah sakit.
                 </p>
             </div>
         </div>
     </div>
+    
     <div class="container mt-2">
         <div class="row   mb-2">
             <div class="col-md-4  mt-3 imageprocess ">
                 <img src="/img/csr3.png" alt="">
             </div>
             <div class="col-md-7 mt-3">
-                <h4 class="fw-bold foregreen">Social Economy</h4>
+                <h4 class="fw-bold foregreen">Ekonomi Sosial</h4>
                 <p class="">
-                    To create the spirit of entrepreneurship among communities surrounding the company, PT. Smelting
-                    provides entrepreneurship course programs and the establishment of small business units as well as
-                    assistance until the creation of business independency.
+                    Untuk menciptakan semangat kewirausahaan di antara masyarakat di sekitar perusahaan, PT Smelting menyediakan program kursus kewirausahaan dan pendirian unit usaha kecil serta bantuan hingga terciptanya kemandirian bisnis.
                 </p>
             </div>
         </div>
     </div>
+    
     <div class="container mt-2">
         <div class="row   mb-2">
             <div class="col-md-4  mt-3 imageprocess ">
                 <img src="/img/csr4.png" alt="">
             </div>
             <div class="col-md-7 mt-3">
-                <h4 class="fw-bold foregreen">Environtment</h4>
+                <h4 class="fw-bold foregreen">Lingkungan</h4>
                 <p class="">
-                    In the matter of health, PT. Smelting participates in improving the health quality of Gresik
-                    community through health service programs in collaboration with Gresik Government and hospitals.
+                    Dalam hal kesehatan, PT Smelting berpartisipasi dalam meningkatkan kualitas kesehatan masyarakat Gresik melalui program layanan kesehatan bekerja sama dengan Pemerintah Gresik dan rumah sakit.
                 </p>
             </div>
         </div>
     </div>
-
+    
 
 
 

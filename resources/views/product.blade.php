@@ -8,6 +8,15 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
     <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <style>
+        * {
+            font-family: "Raleway", sans-serif;
+        }
+    </style>
     <link rel="stylesheet" href="/css/AboutUs.css">
     <style>
         .imageprocess {
@@ -17,6 +26,7 @@
         .imageprocess img {
             max-width: 100%;
         }
+
         .imgr {
             max-width: 100%;
         }
@@ -24,6 +34,7 @@
         .imgr img {
             max-width: 100%;
         }
+
         .fore {
             color: #660100;
         }
@@ -31,16 +42,50 @@
         .foregreen {
             color: #0f6456;
         }
+
+        .descpd {
+            margin: 0.3% 0%;
+            padding: 0%;
+        }
+
+        .btnproduct {
+            background-color: white;
+            color: #0f6456;
+            border: none;
+
+        }
+
+        .btnproduct:hover {
+            background-color: white;
+            color: #0f6456;
+            border: none;
+
+        }
+
+        .btnproduct: {
+            background-color: white;
+            color: #0f6456;
+            border: none;
+
+        }
+
+
+        .btnproduct a {
+
+            color: #0f6456;
+            font-weight: bold;
+
+        }
     </style>
-     <style>
+    <style>
         .navbar-nav .dropdown-menu {
             background-color: #fff;
-            
+
         }
 
         .navbar-nav .dropdown-item {
             color: #333;
-            
+
         }
 
         .navbar-nav .dropdown-item:hover,
@@ -62,9 +107,9 @@
             </button>
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav ms-auto ">
-                    <li class="nav-item dropdown  mx-3"> 
-                        <a class="nav-link dropdown-toggle text-white fw-lighter" href="#" id="navbarDropdown" role="button"
-                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    <li class="nav-item dropdown  mx-3">
+                        <a class="nav-link dropdown-toggle text-white fw-lighter" href="#" id="navbarDropdown"
+                            role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                             About us
                         </a>
                         <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
@@ -72,13 +117,13 @@
                             <li><a class="dropdown-item" href="/managementsystem">Management System</a></li>
                             <li><a class="dropdown-item" href="/award&sertification">Award & Sertification</a></li>
                             <li><a class="dropdown-item" href="/jobopportunity">Job Opportunity</a></li>
-                            
+
                         </ul>
                     </li>
-                    
+
                     <li class="nav-item dropdown  mx-3 text-light">
-                        <a class="nav-link dropdown-toggle text-white fw-lighter" href="#" id="navbarDropdown" role="button"
-                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        <a class="nav-link dropdown-toggle text-white fw-lighter" href="#" id="navbarDropdown"
+                            role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                             Process
                         </a>
                         <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
@@ -88,11 +133,24 @@
                             <li><a class="dropdown-item" href="/refinery">Refinery</a></li>
                             <li><a class="dropdown-item" href="/acidplant">Acid Plant & WWTP</a></li>
                             <li><a class="dropdown-item" href="/supportfacility">Support Facility</a></li>
-                            
+
                         </ul>
                     </li>
-                    <li class="nav-item mx-3">
-                        <a class="nav-link text-light fw-bold" href="/product">Product</a>
+                    <li class="nav-item dropdown  mx-3 text-light">
+                        <a class="nav-link dropdown-toggle text-white fw-lighter" href="#" id="navbarDropdown"
+                            role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Product
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item" href="/product-en">Our Product</a></li>
+                            <li><a class="dropdown-item" href="/product1-en">Copper Cathode</a></li>
+                            <li><a class="dropdown-item" href="/product2-en">Sulfuric Acid</a></li>
+                            <li><a class="dropdown-item" href="/product3-en">Anode Slime</a></li>
+                            <li><a class="dropdown-item" href="/product4-en">Gypsum</a></li>
+                            <li><a class="dropdown-item" href="/product5-en">Copper Slag</a></li>
+                            <li><a class="dropdown-item" href="/product6-en">Copper Telluride</a></li>
+
+                        </ul>
                     </li>
                     <li class="nav-item mx-3">
                         <a class="nav-link text-light fw-lighter" href="/environmental">Environmental</a>
@@ -106,7 +164,13 @@
                     <li class="nav-item mx-3">
                         <a class="nav-link text-light fw-lighter" href="#">Sitemap</a>
                     </li>
-                    
+                    <li class="nav-item mx-1">
+                        <a class="nav-link text-light fw-lighter" href="/">🇮🇩</a>
+                    </li>
+                    <li class="nav-item mx-1">
+                        <a class="nav-link text-light fw-lighter" href="/en">🇬🇧</a>
+                    </li>
+
                 </ul>
             </div>
         </div>
@@ -120,55 +184,160 @@
             </div>
         </div>
     </div>
-    
+
     <div class="container mt-5 fore">
         <div class="row ">
-            <h2 class="heading ">PT. Smelting <span class="fw-lighter">Product</span></h2>
+            <h2 class="heading ">PT Smelting <span class="fw-lighter">Produk</span></h2>
         </div>
     </div>
 
     <div class="container mt-4 fore">
         <div class="row fw-bolder ">
-            <h2 class="heading foregreen ">Main Product<span class="fw-lighter"></span></h2>
+            <h3 class="heading foregreen fw-bold ">Produk Utama<span class="fw-lighter"></span></h3>
         </div>
     </div>
 
-    <div class="container">
-        <div class="row justify-content-start mb-5">
-            <div class="col-md-8  mt-3 imageprocess">
-                <img src="/img/mainproduct.png" alt="">
-            </div>
-            
-        </div>
-    </div>
-<br>
-    <div class="container fore">
-        <div class="row   ">
-            <h3 class="heading fw-bold foregreen">By Product<span class="fw-lighter"></span></h3>
-        </div>
-    </div>
 
-    <div class="container mb-5">
-        <div class="row justify-content-start">
-            <div class="col-md-4  mb-5   imgr">
-                <img class="mt-3" src="img/pd1.png" alt="">
-            </div>
-            <div class="col-md-4  mb-5  imgr">
-                <img class="mt-3" src="img/pd2.png" alt="">
-            </div>
-            <div class="col-md-4  mb-5  imgr">
-                <img class="mt-3" src="img/pd3.png" alt="">
-            </div>
-            <div class="col-md-4  mb-5 imgr">
-                <img class="mt-3" src="img/pd4.png" alt="">
-            </div>
-            
-            <div class="col-md-4  mb-5  imgr ">
-                <img class="mt-3" src="img/pd5.png" alt="">
+
+    <div class="container mt-3">
+        <div class="row">
+            <div class="col-md-7">
+                <div class="row justify-content-start mb-5 d-flex">
+                    <div class="col-md-6 imageprocess">
+                        <img src="/img/pd1.png" alt="">
+                    </div>
+                    <div class="col-md-6">
+                        <h4 class="fw-bold fore">Copper Cathode</h4>
+                        <p class="descpd"><span class="fw-bold">Brand Name :</span> Gresik Copper Cathode</p>
+                        <p class="descpd"><span class="fw-bold">Category :</span> LME Grade A</p>
+                        <p class="descpd"><span class="fw-bold">Weight :</span> 50 kg & 100 kg</p>
+                        <p class="descpd"><span class="fw-bold">Design Capacity :</span> 200,000 T/Y</p>
+                        <p class="descpd"><span class="fw-bold">Current Capacity :</span> 300,000 T/Y</p>
+                        <p class="descpd"><span class="fw-bold">Application :</span> Wire, Cable, Tube</p>
+                        <br>
+                        <br>
+                        <div class="d-flex justify-content-end ">
+                            <button class="btn btn-success btnproduct mt-2"> <a class=""
+                                    style="text-decoration:none" href="/product1">Read More </a></button>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
     
+
+
+
+    <br>
+
+    <div class="container mt-2 fore">
+        <div class="row fw-bolder ">
+            <h3 class="heading foregreen fw-bold ">Produk Tambahan<span class="fw-lighter"></span></h3>
+        </div>
+    </div>
+    <div class="container mt-3">
+        <div class="row">
+            <div class="col-md-6 mt-md-4">
+                <div class="row justify-content-start mb-5 d-flex">
+                    <div class="col-md-5 imageprocess">
+                        <img src="/img/pd2.png" alt="">
+                    </div>
+                    <div class="col-md-6">
+                        <h4 class="fw-bold fore">Sulfuric Acid</h4>
+                        <p class="descpd"><span class="fw-bold">Original :</span> 592.000 TPY</p>
+                        <p class="descpd"><span class="fw-bold">Current Typical Production :</span> 920.000 TPY</p>
+                        <p class="descpd"><span class="fw-bold">Application :</span> Fertilizer</p>
+                        <br>
+                        <br>
+                        <div class="d-flex justify-content-end">
+                            <button class="btn btn-success btnproduct mt-2"> <a class=""
+                                    style="text-decoration:none" href="product2">Read More </a></button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 mt-md-4 ">
+                <div class="row justify-content-start mb-5 d-flex">
+                    <div class="col-md-6 imageprocess">
+                        <img src="/img/pd3.png" alt="">
+                    </div>
+                    <div class="col-md-6">
+                        <h4 class="fw-bold fore">Anode Slime</h4>
+                        <p class="descpd"><span class="fw-bold">Original :</span> 480 TPY</p>
+                        <p class="descpd"><span class="fw-bold">Current Typical Production :</span> 1.800 TPY</p>
+                        <p class="descpd"><span class="fw-bold">Application :</span> Gold and Silver Refining</p>
+                        <br>
+                        <br>
+                        <div class="d-flex justify-content-end">
+                            <button class="btn btn-success btnproduct mt-2"> <a class=""
+                                    style="text-decoration:none" href="product3">Read More </a></button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 mt-md-4">
+                <div class="row justify-content-start mb-5 d-flex">
+                    <div class="col-md-5 imageprocess">
+                        <img src="/img/pd4.png" alt="">
+                    </div>
+                    <div class="col-md-6">
+                        <h4 class="fw-bold fore">Gypsum</h4>
+                        <p class="descpd"><span class="fw-bold">Original :</span> 31.000 TPY</p>
+                        <p class="descpd"><span class="fw-bold">Current Typical Production :</span> 35.000 TPY</p>
+                        <p class="descpd"><span class="fw-bold">Application :</span> Cement</p>
+                        <br>
+                        <br>
+                        <div class="d-flex justify-content-end">
+                            <button class="btn btn-success btnproduct mt-2"> <a class=""
+                                    style="text-decoration:none" href="product4">Read More </a></button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 mt-md-4">
+                <div class="row justify-content-start mb-5 d-flex">
+                    <div class="col-md-6 imageprocess">
+                        <img src="/img/pd5.png" alt="">
+                    </div>
+                    <div class="col-md-6">
+                        <h4 class="fw-bold fore">Copper Slag</h4>
+                        <p class="descpd"><span class="fw-bold">Original :</span> 382.000 TPY</p>
+                        <p class="descpd"><span class="fw-bold">Current Typical Production :</span>  655.000 TPY</p>
+                        <p class="descpd"><span class="fw-bold">Application :</span> Cement, concrete</p>
+                        <br>
+                        <br>
+                        <br>
+                        <div class="d-flex justify-content-end">
+                            <button class="btn btn-success btnproduct mt-2"> <a class=""
+                                    style="text-decoration:none" href="product5">Read More </a></button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 mt-md-4">
+                <div class="row justify-content-start mb-5 d-flex">
+                    <div class="col-md-6 imageprocess">
+                        <img src="/img/pd6.png" alt="">
+                    </div>
+                    <div class="col-md-6">
+                        <h4 class="fw-bold fore">Copper Telluride</h4>
+                        <p class="descpd"><span class="fw-bold">Current Typical Production :</span>  30-40 TPY</p>
+                        <p class="descpd"><span class="fw-bold">Application :</span> Telluride Refining</p>
+                        <br>
+                        <br>
+                        <br>
+                        <div class="d-flex justify-content-end">
+                            <button class="btn btn-success btnproduct mt-2"> <a class=""
+                                    style="text-decoration:none" href="product6">Read More </a></button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
 
 
     <div class="container footer footerpad">
@@ -253,9 +422,9 @@
             }
         });
     </script>
-     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
-     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.2/dist/umd/popper.min.js"></script>
-     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.2/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 </body>
 
 </html>

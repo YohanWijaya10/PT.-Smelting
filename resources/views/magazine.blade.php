@@ -5,11 +5,11 @@
 <!--[if IE 9 ]>    <html lang="en" class="ie9"> <![endif]-->
 <!--[if !IE]><!--> <html lang="en"> <!--<![endif]-->
 <head>
-<script type="text/javascript" src="../../extras/jquery.min.1.7.js"></script>
-<script type="text/javascript" src="../../extras/jquery-ui-1.8.20.custom.min.js"></script>
-<script type="text/javascript" src="../../extras/jquery.mousewheel.min.js"></script>
-<script type="text/javascript" src="../../extras/modernizr.2.5.3.min.js"></script>
-<script type="text/javascript" src="../../lib/hash.js"></script>
+<script type="text/javascript" src="Magazine/extras/jquery.min.1.7.js"></script>
+<script type="text/javascript" src="Magazine/extras/jquery-ui-1.8.20.custom.min.js"></script>
+<script type="text/javascript" src="Magazine/extras/jquery.mousewheel.min.js"></script>
+<script type="text/javascript" src="Magazine/extras/modernizr.2.5.3.min.js"></script>
+<script type="text/javascript" src="Magazine/lib/hash.js"></script>
 
 </head>
 <body>
@@ -258,9 +258,9 @@ $('#canvas').css({visibility: 'hidden'});
 
 yepnope({
 	test: Modernizr.csstransforms,
-	yep: ['../../lib/turn.min.js', 'css/jquery.ui.css'],
-	nope: ['../../lib/turn.html4.min.js', 'css/jquery.ui.html4.css'],
-	both: ['css/docs.css', 'js/docs.js'],
+	yep: ['Magazine/lib/turn.min.js', 'Magazine/css/jquery.ui.css'],
+	nope: ['Magazine/lib/turn.html4.min.js', 'Magazine/css/jquery.ui.html4.css'],
+	both: ['Magazine/css/docs.css', 'Magazine/js/docs.js'],
 	complete: loadApp
 });
 

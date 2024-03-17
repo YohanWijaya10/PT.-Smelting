@@ -8,6 +8,14 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
     <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <style>
+         *{
+            font-family: "Raleway", sans-serif;
+        }
+    </style>
     <link rel="stylesheet" href="/css/managementsystem.css">
     <style>
         .navbar-nav .dropdown-menu {
@@ -30,7 +38,7 @@
 <body>
     <nav class="navbar navbar-expand-lg navbar-light  fixed-top navbar-scrolled ">
         <div class="container">
-            <a class="navbar-brand" href="#"><img class="logo" src="img/logosmelting.png" width="70"
+            <a class="navbar-brand" href="/"><img class="logo" src="img/logosmelting.png" width="70"
                     height="70"></a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
                 aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -82,6 +90,12 @@
                     <li class="nav-item mx-3">
                         <a class="nav-link text-light fw-ligter" href="#">Sitemap</a>
                     </li>
+                    <li class="nav-item mx-1">
+                        <a class="nav-link text-light fw-lighter" href="/">🇮🇩</a>
+                    </li>
+                    <li class="nav-item mx-1">
+                        <a class="nav-link text-light fw-lighter" href="/en">🇬🇧</a>
+                    </li>
                     
                 </ul>
             </div>
@@ -110,132 +124,122 @@
         </div>
     </div>
 
-    <div class="container mb-5">
-        <div class="row mt-5 pt-5">
-            <div class="row ">
-                <h2 class="heading">PT. Smelting:<span class="fw-lighter"> Smelting Management System</span></h2>
+    
+<div class="container mb-5">
+    <div class="row mt-5 pt-5">
+        <div class="row ">
+            <h2 class="heading">PT Smelting:<span class="fw-lighter"> Sistem Manajemen Smelting</span></h2>
+        </div>
+        <div class="row">
+            <p>Sistem manajemen adalah seperangkat kebijakan, proses, dan prosedur yang digunakan oleh sebuah organisasi untuk memastikan bahwa dapat memenuhi tugas yang diperlukan untuk mencapai tujuannya.
+                Sistem Manajemen PT Smelting adalah Sistem Manajemen Terpadu yang terdiri dari Sistem Manajemen Keselamatan dan Kesehatan Kerja (ISO 45001); Sistem Manajemen Lingkungan (ISO 14001); Sistem Manajemen Kualitas (ISO 9001); dan Sistem Manajemen Keamanan.</p>
+        </div>
+        <div class="row">
+            <p>PT Smelting juga menerapkan aturan dan prioritas <span class="fw-bold">S-C-Q-D-E</span></p>
+        </div>
+        <div class="row m-1">
+            <p class="fw-bold m-0 p-0">“S” = Keselamatan (Safety);</p>
+            <p class="fw-bold m-0 p-0">“C” = Kepatuhan dan Lingkungan (Compliance and Environment);</p>
+            <p class="fw-bold m-0 p-0">“Q” = Kualitas (Quality);</p>
+            <p class="fw-bold m-0 p-0">“D” = Pengiriman (Delivery);</p>
+            <p class="fw-bold m-0 p-0">“E” = Penghasilan (Keuntungan/Profit);</p>
+        </div>
+        
+    </div>
+    <div class="row mt-5">
+        <div class="row mt-4">
+            <div class="col-4 col-md-2 imgsertif">
+                <img src="img/ISO45001.png" alt="">
             </div>
-            <div class="row">
-                <p>A management system is a set of policies, processes and procedures used by an organization to ensure
-                    that it can fulfil the tasks required to achieve its objectives.
-                    PT. Smelting Management System is Integrated Management System consisting of Occupational Safety and
-                    Health Management System (ISO 45001); Environmental Management System (ISO 14001); Quality
-                    Management System (ISO 9001); and Security Management System.</p>
-            </div>
-            <div class="row">
-                <p>PT. Smelting also implement rule and priority of <span class="fw-bold">S-C-Q-D-E</span></p>
-            </div>
-            <div class="row m-1">
-                <p class="fw-bold m-0 p-0">“S” = Safety;</p>
-                <p class="fw-bold m-0 p-0">“C” = Compliance and Environment;</p>
-                <p class="fw-bold m-0 p-0">“Q” = Quality;</p>
-                <p class="fw-bold m-0 p-0">“D” = Delivery;</p>
-                <p class="fw-bold m-0 p-0">“E” = Earning (Profit);</p>
+            <div class="col-8">
+                <div class="row">
+                    <h3 class="fw-bold  title">ISO 45001</h3>
+                    <p>PT Smelting telah menerapkan Keselamatan dan Kesehatan Kerja sesuai dengan ISO 45001:2018 dalam sistem manajemen terpadu. Sebagai smelter dan pabrik peleburan tembaga pertama di Indonesia, PT Smelting memiliki peran besar dalam menciptakan lingkungan kerja yang aman melalui perbaikan proses yang efisien, baik, dan ramah lingkungan sebagai model untuk smelter tembaga di masa depan.</p>
+                </div>
             </div>
         </div>
-        <div class="row mt-5">
-            <div class="row mt-4">
-                <div class="col-4 col-md-2 imgsertif">
-                    <img src="img/ISO45001.png" alt="">
-                </div>
-                <div class="col-8">
-                    <div class="row">
-                        <h3 class="fw-bold  title">ISO 45001</h3>
-                        <p>PT. Smelting has implemented Occupational Safety and Health according to ISO 45001:2018 in
-                            the integrated management system.As the first copper smelter and refinery in Indonesia, PT.
-                            Smelting has a major role in creating a safe working environment through the process
-                            improvement which is efficient, sound and environmentally friendly as a model for future
-                            copper smelter.
-                        </p>
-                    </div>
+        <div class="row mt-4">
+            <div class="col-4 col-md-2 imgsertif">
+                <img src="img/ISO14001.png" alt="">
+            </div>
+            <div class="col-8">
+                <div class="row">
+                    <h3 class="fw-bold  title">ISO 14001</h3>
+                    <p>PT Smelting memiliki komitmen tinggi dan serius terhadap perlindungan lingkungan dan manajemen lingkungan dengan selalu berusaha menjadi perusahaan yang ramah lingkungan. Sebagai manifestasi dari komitmen ini, implementasi Sistem Manajemen Lingkungan (ISO 14001: 2015) dilakukan dalam sistem manajemen terpadu.</p>
                 </div>
             </div>
-            <div class="row mt-4">
-                <div class="col-4 col-md-2 imgsertif">
-                    <img src="img/ISO14001.png" alt="">
-                </div>
-                <div class="col-8">
-                    <div class="row">
-                        <h3 class="fw-bold  title">ISO 14001</h3>
-                        <p>PT Smelting has a high and serious commitment to the environmental protection and environmental management by always trying to be environmentally friendly company. As a manifestation of this commitment is the implementation of Environmental Management Systems (ISO 14001: 2015) in the integrated management system.
-                        </p>
-                    </div>
+        </div>
+        <div class="row mt-4">
+            <div class="col-4 col-md-2 imgsertif">
+                <img src="img/ISO9001.png" alt="">
+            </div>
+            <div class="col-8">
+                <div class="row">
+                    <h3 class="fw-bold  title">ISO 9001</h3>
+                    <p>ISO 9001 dikenal secara luas sebagai sertifikasi sistem manajemen mutu (QMS) secara global. ISO 9001 mendefinisikan standar dari sistem manajemen mutu untuk menjamin bahwa organisasi dapat menghasilkan produk atau layanan berdasarkan persyaratan yang ditentukan. Persyaratan yang ditentukan ini adalah persyaratan khusus pelanggan, di mana organisasi bertanggung jawab untuk menjamin kualitas produknya atau permintaan pasar seperti yang ditentukan oleh perusahaan.</p>
                 </div>
             </div>
-            <div class="row mt-4">
-                <div class="col-4 col-md-2 imgsertif">
-                    <img src="img/ISO9001.png" alt="">
-                </div>
-                <div class="col-8">
-                    <div class="row">
-                        <h3 class="fw-bold  title">ISO 9001</h3>
-                        <p>ISO 9001 is well known as worldwide certification on quality management system (QMS). ISO 9001 defines the standards of a quality management system to guarantee that the organization can produce the product or service based on requirement defined. These defined requirements are specific customer requirements, in which the organization responsible to guarantee the quality of its product or the market demand as defined by company.
-                        </p>
-                    </div>
+        </div>
+        <div class="row mt-4">
+            <div class="col-4 col-md-2 imgsertif">
+                <img src="img/smsi.png" alt="">
+            </div>
+            <div class="col-8">
+                <div class="row">
+                    <h3 class="fw-bold  title">Implementasi Sistem Manajemen Keamanan</h3>
+                    <p>PT Smelting ditetapkan sebagai perusahaan Objek Vital Nasional (Obvitnas) berdasarkan keputusan Kementerian Industri No. 466/M-IND/Kep/8/2014. Oleh karena itu, PT Smelting menerapkan sistem manajemen keamanan berdasarkan Peraturan Kepolisian No. 7/2019 dan mendapatkan sertifikatnya pada 1 September 2021 dengan pencapaian tingkat emas.</p>
                 </div>
             </div>
-            <div class="row mt-4">
-                <div class="col-4 col-md-2 imgsertif">
-                    <img src="img/smsi.png" alt="">
-                </div>
-                <div class="col-8">
-                    <div class="row">
-                        <h3 class="fw-bold  title">Security Management System Implementation</h3>
-                        <p>PT. Smelting is determined as National Vital Object company (Obvitnas) based on decision from Industrial Ministry No. 466/M-IND/Kep/8/2014. Therefore, PT. Smelting implements security management system based on Police Regulation No. 7/2019 and got its certification on September 1, 2021 with gold level achievement.
-                        </p>
-                    </div>
+        </div>
+        <div class="row mt-4">
+            <div class="col-4 col-md-2 imgsertif">
+                <img src="img/proper.png" alt="">
+            </div>
+            <div class="col-8">
+                <div class="row">
+                    <h3 class="fw-bold  title">PROPER (Program Penilaian Kinerja Perusahaan pada Pengelolaan Lingkungan)</h3>
+                    <p>PT Smelting ditetapkan sebagai perusahaan Objek Vital Nasional (Obvitnas) berdasarkan keputusan Kementerian Industri No. 466/M-IND/Kep/8/2014. Oleh karena itu, PT Smelting menerapkan sistem manajemen keamanan berdasarkan Peraturan Kepolisian No. 7/2019 dan mendapatkan sertifikatnya pada 1 September 2021 dengan pencapaian tingkat emas.</p>
                 </div>
             </div>
-            <div class="row mt-4">
-                <div class="col-4 col-md-2 imgsertif">
-                    <img src="img/proper.png" alt="">
-                </div>
-                <div class="col-8">
-                    <div class="row">
-                        <h3 class="fw-bold  title">PROPER (Program of Company Performance Rating Assessment on Environmental Management)</h3>
-                        <p>PT. Smelting is determined as National Vital Object company (Obvitnas) based on decision from Industrial Ministry No. 466/M-IND/Kep/8/2014. Therefore, PT. Smelting implements security management system based on Police Regulation No. 7/2019 and got its certification on September 1, 2021 with gold level achievement.
-                        </p>
-                    </div>
+        </div>
+        <div class="row mt-4">
+            <div class="col-4 col-md-2 imgsertif">
+                <img src="img/green.png" alt="">
+            </div>
+            <div class="col-8">
+                <div class="row">
+                    <h3
+
+ class="fw-bold  title">INDUSTRI HIJAU</h3>
+                    <p>Program Industri Hijau diselenggarakan oleh Kementerian Industri yang bertujuan untuk terus mendorong semua sektor manufaktur di Indonesia dalam menerapkan prinsip industri hijau untuk mendukung terciptanya industri yang ramah lingkungan dan kompetitif di dunia global.</p>
                 </div>
             </div>
-            <div class="row mt-4">
-                <div class="col-4 col-md-2 imgsertif">
-                    <img src="img/green.png" alt="">
-                </div>
-                <div class="col-8">
-                    <div class="row">
-                        <h3 class="fw-bold  title">GREEN INDUSTRY</h3>
-                        <p>The Green Industry Program is held by the Ministry of Industry which aims to continue to encourage all manufacturing sectors in Indonesia in the application of green industry principles in order to support the creation of environmentally friendly and competitive industries on the global scene.
-                        </p>
-                    </div>
+        </div>
+        <div class="row mt-4">
+            <div class="col-4 col-md-2 imgsertif">
+                <img src="img/5s.png" alt="">
+            </div>
+            <div class="col-8">
+                <div class="row">
+                    <h3 class="fw-bold  title">5S</h3>
+                    <p>5S adalah salah satu metode untuk menentukan pendekatan organisasi dalam mengevaluasi kemampuan organisasi dalam organisasi tempat kerja dan standar manajemen visual. 5S melibatkan orang melalui penggunaan 'Standar' dan 'Disiplin'. Ini bukan hanya tentang kebersihan, tetapi berkonsentrasi pada mempertahankan standar & disiplin untuk mengelola organisasi - semua dicapai dengan menjaga dan menunjukkan rasa hormat terhadap tempat kerja setiap hari.</p>
                 </div>
             </div>
-            <div class="row mt-4">
-                <div class="col-4 col-md-2 imgsertif">
-                    <img src="img/5s.png" alt="">
-                </div>
-                <div class="col-8">
-                    <div class="row">
-                        <h3 class="fw-bold  title">5S</h3>
-                        <p>5 S is one of the methods of determining an organization approach to to evaluate its workplace organization capability & visual management standards. 5S engages people through the use of 'Standards' and ‘Discipline'. It is not just about housekeeping, but concentrating on maintaining the standards & discipline to manage the organization - all achieved by upholding & showing respect for the workplace every day.
-                        </p>
-                    </div>
-                </div>
+        </div>
+        <div class="row mt-4">
+            <div class="col-4 col-md-2 imgsertif">
+                <img src="img/Occupational Safety and Health Management System Award.png" alt="">
             </div>
-            <div class="row mt-4">
-                <div class="col-4 col-md-2 imgsertif">
-                    <img src="img/Occupational Safety and Health Management System Award.png" alt="">
-                </div>
-                <div class="col-8">
-                    <div class="row">
-                        <h3 class="fw-bold title">Occupational Safety and Health Management System Award</h3>
-                        <p> The implementation of Occupational Safety and Health Management System (SMK3) in the workplace has resulted in an achievement of 92.77% (Satisfactory) for the advanced level category.
-                        </p>
-                    </div>
+            <div class="col-8">
+                <div class="row">
+                    <h3 class="fw-bold title">Penghargaan Sistem Manajemen Keselamatan dan Kesehatan Kerja</h3>
+                    <p>Implementasi Sistem Manajemen Keselamatan dan Kesehatan Kerja (SMK3) di tempat kerja telah menghasilkan pencapaian 92,77% (Memuaskan) untuk kategori tingkat lanjut.</p>
                 </div>
             </div>
         </div>
     </div>
+</div>
+```
     <div class="container footer footerpad mt-5 ">
         <div class="row justify-content-center align-items-center">
             <div class="col-md-4 col-12 imgfooter m-2">

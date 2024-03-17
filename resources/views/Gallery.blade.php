@@ -6,6 +6,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <style>
+         *{
+            font-family: "Raleway", sans-serif;
+        }
+    </style>
     <link rel="stylesheet" href="/css/headeraboutus.css">
     <link rel="stylesheet" href="/css/color.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
@@ -62,7 +70,7 @@
 <body>
     <nav class="navbar navbar-expand-lg navbar-light  fixed-top navbar-scrolled ">
         <div class="container">
-            <a class="navbar-brand" href="#"><img class="logo" src="img/logosmelting.png" width="70"
+            <a class="navbar-brand" href="/"><img class="logo" src="img/logosmelting.png" width="70"
                     height="70"></a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
                 aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -76,10 +84,10 @@
                             About us
                         </a>
                         <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                            <li><a class="dropdown-item" href="/aboutus">Profile</a></li>
-                            <li><a class="dropdown-item" href="/managementsystem">Management System</a></li>
-                            <li><a class="dropdown-item" href="/award&sertification">Award & Sertification</a></li>
-                            <li><a class="dropdown-item" href="/jobopportunity">Job Opportunity</a></li>
+                            <li><a class="dropdown-item" href="/aboutus-en">Profile</a></li>
+                            <li><a class="dropdown-item" href="/managementsystem-en">Management System</a></li>
+                            <li><a class="dropdown-item" href="/award&sertification-en">Award & Sertification</a></li>
+                            <li><a class="dropdown-item" href="/jobopportunity-en">Job Opportunity</a></li>
                             
                         </ul>
                     </li>
@@ -90,29 +98,35 @@
                             Process
                         </a>
                         <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                            <li><a class="dropdown-item" href="/simplifieddiagram">Simplified Diagram</a></li>
-                            <li><a class="dropdown-item" href="/rawmaterial">rawmaterial</a></li>
-                            <li><a class="dropdown-item" href="/process">smelter</a></li>
-                            <li><a class="dropdown-item" href="/refinery">Refinery</a></li>
-                            <li><a class="dropdown-item" href="/acidplant">Acid Plant & WWTP</a></li>
-                            <li><a class="dropdown-item" href="/supportfacility">Support Facility</a></li>
+                            <li><a class="dropdown-item" href="/simplifieddiagram-en">Simplified Diagram</a></li>
+                            <li><a class="dropdown-item" href="/rawmaterial-en">rawmaterial</a></li>
+                            <li><a class="dropdown-item" href="/process-en">smelter</a></li>
+                            <li><a class="dropdown-item" href="/refinery-en">Refinery</a></li>
+                            <li><a class="dropdown-item" href="/acidplant-en">Acid Plant & WWTP</a></li>
+                            <li><a class="dropdown-item" href="/supportfacility-en">Support Facility</a></li>
                             
                         </ul>
                     </li>
                     <li class="nav-item mx-3">
-                        <a class="nav-link text-light" href="/product">Product</a>
+                        <a class="nav-link text-light" href="/product-en">Product</a>
                     </li>
                     <li class="nav-item mx-3">
-                        <a class="nav-link text-light fw-ligter" href="/environmental">Environmental</a>
+                        <a class="nav-link text-light fw-ligter" href="/environmental-en">Environmental</a>
                     </li>
                     <li class="nav-item mx-3">
-                        <a class="nav-link text-light fw-ligter" href="/csr">CSR Activity</a>
+                        <a class="nav-link text-light fw-ligter" href="/csr-en">CSR Activity</a>
                     </li>
                     <li class="nav-item mx-3">
-                        <a class="nav-link text-light fw-ligter" href="/news">News</a>
+                        <a class="nav-link text-light fw-ligter" href="/news-en">News</a>
                     </li>
                     <li class="nav-item mx-3">
                         <a class="nav-link text-light fw-ligter" href="#">Sitemap</a>
+                    </li>
+                    <li class="nav-item mx-1">
+                        <a class="nav-link text-light fw-lighter" href="/">🇮🇩</a>
+                    </li>
+                    <li class="nav-item mx-1">
+                        <a class="nav-link text-light fw-lighter" href="/en">🇬🇧</a>
                     </li>
                     
                 </ul>
@@ -145,7 +159,7 @@
     </nav>
     <div class="container mt-5">
         <div class="row  ">
-            <h2 class="heading fw-bold forered">PT. Smelting :<span class="fw-lighter"> Magazine</span></h2>
+            <h2 class="heading fw-bold forered">PT Smelting :<span class="fw-lighter"> Majalah</span></h2>
         </div>
     </div>
 
@@ -178,18 +192,22 @@
             <div class="col-5 col-md-2 mt-3 imgmagazine reveal">
                 <img src="/img/Magazine9.png" alt="">
             </div>
+            
             <div class="col-5 col-md-2 mt-3 imgmagazine reveal">
-                <img src="/img/magazine.png" alt="">
+                <a href="https://smeltingbook.my.id/samples/docs/#page/2">
+                    <img src="/img/magazine.png" alt="">
+                </a>
+                
             </div>
         </div>
     </div>
     <div class="container mt-5">
         <div class="row  reveal">
-            <h2 class="heading fw-bold forered">PT. Smelting :<span class="fw-lighter"> Gallery</span></h2>
+            <h2 class="heading fw-bold forered">PT Smelting :<span class="fw-lighter"> Galeri</span></h2>
         </div>
     </div>
     <div class="container mt-4 reveal">
-        <h5 class="fw-bold foregreen">ESTABLISHMENT OF COMPANY</h5>
+        <h5 class="fw-bold foregreen">PEMBENTUKAN PERUSAHAAN</h5>
     </div>
 
     <div class="container  ">
@@ -217,7 +235,7 @@
     </div>
 
     <div class="container mt-5 reveal">
-        <h5 class="fw-bold foregreen">CONSTRUCTION PROCESS</h5>
+        <h5 class="fw-bold foregreen">PROSES KONSTRUKSI</h5>
     </div>
 
     <div class="container  ">
@@ -283,7 +301,7 @@
     </div>
 
     <div class="container mt-4 reveal">
-        <h5 class="fw-bold foregreen">OPENING CEREMONY</h5>
+        <h5 class="fw-bold foregreen">PERESMIAN</h5>
     </div>
 
     <div class="container  ">

@@ -8,6 +8,14 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
     <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <style>
+         *{
+            font-family: "Raleway", sans-serif;
+        }
+    </style>
     <link rel="stylesheet" href="/css/AboutUs.css">
     <style>
         .imageprocess {
@@ -101,6 +109,12 @@
                         <li class="nav-item mx-3">
                             <a class="nav-link text-light fw-lighter" href="#">Sitemap</a>
                         </li>
+                        <li class="nav-item mx-1">
+                            <a class="nav-link text-light fw-lighter" href="/">🇮🇩</a>
+                        </li>
+                        <li class="nav-item mx-1">
+                            <a class="nav-link text-light fw-lighter" href="/en">🇬🇧</a>
+                        </li>
                     </ul>
             </div>
         </div>
@@ -133,7 +147,7 @@
     </div>
     <div class="container mt-5 fore">
         <div class="row ">
-            <h2 class="heading">PT. Smelting:<span class="fw-lighter"> Simplified Diagram</span></h2>
+            <h2 class="heading">PT Smelting:<span class="fw-lighter"> Diagram Sederhana</span></h2>
         </div>
     </div>
 
@@ -143,23 +157,9 @@
                 <img src="/img/SimplifiedDiagram.png" alt="">
             </div>
             <div class="col">
-                <p class="mt-5 mb-5">Copper concentrate is received by ship at a wharf which can accommodate
-                    concentrate
-                    ship carrying up to
-                    35,000 tons. A jetty, 2 km in length is constructed to reach water of sufficient depth.
-                    A wharf constructed at the head of the jetty. An unloader with a clam shell bucket, coverage
-                    capacity
-                    350 t/h, ship loader for slag, and reversible belt conveyors are installed. Unloaded concentrate is
-                    delivered to concentrate storage yard (capacity 55,000 tons) after weighing and sampling
-                    automatically
-                    on the way.
-                    Other materials like silica, lime stone and coal are normally received by truck and stored in the
-                    flux
-                    storage building. Converting furnace slag (C-slag) is also stored in the flux building. Fluxes are
-                    then
-                    transferred by a belt conveyor to the each flux bin in the smelter and a belt scale weighs the
-                    fluxes on
-                    the way to the flux bins.
+                <p class="mt-5 mb-5">Konsentrat tembaga diterima melalui kapal di dermaga yang dapat menampung kapal konsentrat dengan kapasitas hingga 35.000 ton. Sebuah dermaga sepanjang 2 km dibangun untuk mencapai kedalaman air yang memadai. Di kepala dermaga dibangun sebuah pelabuhan. Sebuah alat bongkar dengan keranjang cangkang, kapasitas cakupan 350 ton/jam, pemuat kapal untuk slag, dan konveyor sabuk bolak-balik dipasang. Konsentrat yang telah dimuat dikirimkan ke tempat penyimpanan konsentrat (kapasitas 55.000 ton) setelah diukur beratnya dan diambil sampel secara otomatis selama proses pengiriman.
+
+                    Bahan lain seperti silika, batu kapur, dan batubara biasanya diterima melalui truk dan disimpan di bangunan penyimpanan bahan dasar. Terak konverter (C-slag) juga disimpan di bangunan penyimpanan bahan dasar. Bahan dasar kemudian dipindahkan melalui konveyor sabuk ke setiap bin bahan dasar di peleburan dan timbangan sabuk menimbang bahan dasar tersebut selama proses pengiriman ke bin bahan dasar.
                 </p>
             </div>
 

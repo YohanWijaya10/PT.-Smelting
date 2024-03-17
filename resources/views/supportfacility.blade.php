@@ -8,6 +8,14 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
     <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <style>
+         *{
+            font-family: "Raleway", sans-serif;
+        }
+    </style>
     <link rel="stylesheet" href="/css/AboutUs.css">
     <style>
         .imageprocess {
@@ -17,6 +25,7 @@
         .imageprocess img {
             max-width: 100%;
         }
+
         .imgr {
             max-width: 100%;
         }
@@ -24,6 +33,7 @@
         .imgr img {
             max-width: 100%;
         }
+
         .fore {
             color: #660100;
         }
@@ -32,15 +42,15 @@
             color: #0f6456;
         }
     </style>
-     <style>
+    <style>
         .navbar-nav .dropdown-menu {
             background-color: #fff;
-            
+
         }
 
         .navbar-nav .dropdown-item {
             color: #333;
-            
+
         }
 
         .navbar-nav .dropdown-item:hover,
@@ -107,6 +117,12 @@
                         <li class="nav-item mx-3">
                             <a class="nav-link text-light fw-lighter" href="#">Sitemap</a>
                         </li>
+                        <li class="nav-item mx-1">
+                            <a class="nav-link text-light fw-lighter" href="/">🇮🇩</a>
+                        </li>
+                        <li class="nav-item mx-1">
+                            <a class="nav-link text-light fw-lighter" href="/en">🇬🇧</a>
+                        </li>
                     </ul>
             </div>
         </div>
@@ -138,23 +154,91 @@
     </div>
     <div class="container mt-5 fore">
         <div class="row ">
-            <h2 class="heading">PT. Smelting:<span class="fw-lighter"> Support Facility</span></h2>
+            <h2 class="heading">PT Smelting:<span class="fw-lighter"> Support Facility</span></h2>
         </div>
     </div>
 
-    
 
-    <div class="container ">
-        <div class="row">
-            <div class="col-md-8  mb-5 imgr">
-                <img class="mt-4" src="img/jetty.png" alt="">
-                <img class="mt-4" src="img/maintenance.png" alt="">
-                <img class="mt-4" src="img/utility.png" alt="">
-                <img class="mt-4" src="img/lab.png" alt="">
-                <img class="mt-4" src="img/si.png" alt="">
+
+
+    <div class="container">
+        <div class="row justify-content-center mb-5 mt-3">
+            <div class="col-md-3 imageprocess">
+                <img src="/img/sp1.png" alt="">
+            </div>
+            <div class="col">
+                <h4 class="heading fw-bold foregreen">1. Dermaga dan Wharf<span class="fw-lighter"></span></h4>
+                <p class="mb-5">Dermaga sepanjang dua kilometer dan wharf sepanjang 230 meter dirancang untuk
+                    menangani kapal berkapasitas 35.000 ton dengan kapasitas bongkar normal sebesar 350 ton/jam.
+                    Konveyor dermaga & wharf dapat digunakan baik untuk bongkar muatan konsentrat maupun muatan Cl-slag
+                    melalui konveyor sabuk bolak-balik.</p>
             </div>
         </div>
     </div>
+
+    <div class="container">
+        <div class="row justify-content-center mb-5 mt-3">
+            <div class="col-md-3 imageprocess">
+                <img src="/img/sp2.png" alt="">
+            </div>
+            <div class="col">
+                <h4 class="heading fw-bold foregreen">2. Bengkel Pemeliharaan<span class="fw-lighter"></span></h4>
+                <p class="mb-5">Dermaga sepanjang dua kilometer dan wharf sepanjang 230 meter dirancang untuk
+                    menangani kapal berkapasitas 35.000 ton dengan kapasitas bongkar normal sebesar 350 ton/jam.
+                    Konveyor dermaga & wharf dapat digunakan baik untuk bongkar muatan konsentrat maupun muatan Cl-slag
+                    melalui konveyor sabuk bolak-balik.</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="row justify-content-center mb-5 mt-3">
+            <div class="col-md-3 imageprocess">
+                <img src="/img/sp3.png" alt="">
+            </div>
+            <div class="col">
+                <h4 class="heading fw-bold foregreen">3. Konsumsi Utilitas<span class="fw-lighter"></span></h4>
+                <div class="col-md-6 imageprocess">
+                    <img src="/img/uti.png" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="row justify-content-center mb-5 mt-3">
+            <div class="col-md-3 imageprocess">
+                <img src="/img/sp4.png" alt="">
+            </div>
+            <div class="col">
+                <h4 class="heading fw-bold foregreen">4. Laboratorium<span class="fw-lighter"></span></h4>
+                <p class="mb-5">Laboratorium bertanggung jawab melakukan analisis sampel untuk inspeksi kualitas
+                    bahan baku dan produk, pengendalian proses, serta melakukan analisis sampel untuk pemantauan
+                    lingkungan. Untuk memenuhi tanggung jawab ini, laboratorium kami didukung oleh personel yang
+                    kompeten dan dilengkapi dengan instrumen analisis modern, seperti ICP-OES, GF-AAS, XRF Spectrometer,
+                    UV-Visible Spectrophotometer, dan Oxygen/Sulfur Analyzer.</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="row justify-content-center mb-5 mt-3">
+            <div class="col-md-3 imageprocess">
+                <img src="/img/sp5.png" alt="">
+            </div>
+            <div class="col">
+                <h4 class="heading fw-bold foregreen">5. Teknologi Informasi<span class="fw-lighter"></span></h4>
+                <p class="mb-5">PT Smelting menggunakan sistem perangkat lunak Enterprise Resource Planning (ERP)
+                    sebagai sistem bisnis utama untuk mengelola aktivitas bisnis utamanya, seperti Akuntansi & Keuangan,
+                    dan Pembelian & Gudang. Sebagai pendamping dari sistem ERP, PT Smelting juga menggunakan sistem
+                    khusus (Sistem PTS) untuk mengelola alur bisnis bahan baku (konsentrat tembaga) dari proses bongkar
+                    muatan hingga menjadi produk utama (katoda tembaga). Pemantauan proses 24 jam dari semua pabrik
+                    didukung oleh Sistem Pengendalian Terdistribusi (Sistem DCS) yang terhubung ke Sistem PTS.</p>
+            </div>
+        </div>
+    </div>
+
+
 
 
     <div class="container footer footerpad">
@@ -239,9 +323,9 @@
             }
         });
     </script>
-     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
-     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.2/dist/umd/popper.min.js"></script>
-     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.2/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 </body>
 
 </html>

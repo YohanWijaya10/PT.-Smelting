@@ -8,6 +8,14 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
     <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <style>
+         *{
+            font-family: "Raleway", sans-serif;
+        }
+    </style>
     <link rel="stylesheet" href="/css/AboutUs.css">
     <style>
         .imageprocess {
@@ -109,6 +117,12 @@
                         <li class="nav-item mx-3">
                             <a class="nav-link text-light fw-lighter" href="#">Sitemap</a>
                         </li>
+                        <li class="nav-item mx-1">
+                            <a class="nav-link text-light fw-lighter" href="/">🇮🇩</a>
+                        </li>
+                        <li class="nav-item mx-1">
+                            <a class="nav-link text-light fw-lighter" href="/en">🇬🇧</a>
+                        </li>
                     </ul>
             </div>
         </div>
@@ -141,7 +155,7 @@
     </div>
     <div class="container mt-5 fore">
         <div class="row ">
-            <h2 class="heading">PT. Smelting:<span class="fw-lighter"> Smelter</span></h2>
+            <h2 class="heading">PT Smelting:<span class="fw-lighter"> Smelter</span></h2>
         </div>
     </div>
 
@@ -150,23 +164,21 @@
             <div class="col-md-6  mt-5 imageprocess">
                 <img src="/img/process.png" alt="">
             </div>
-            <p class="mt-5 mb-5">Copper concentrate is received by ship at a wharf which can accommodate concentrate
-                ship carrying up to
-                35,000 tons. A jetty, 2 km in length is constructed to reach water of sufficient depth.
-                A wharf constructed at the head of the jetty. An unloader with a clam shell bucket, coverage capacity
-                350 t/h, ship loader for slag, and reversible belt conveyors are installed. Unloaded concentrate is
-                delivered to concentrate storage yard (capacity 55,000 tons) after weighing and sampling automatically
-                on the way.
-                Other materials like silica, lime stone and coal are normally received by truck and stored in the flux
-                storage building. Converting furnace slag (C-slag) is also stored in the flux building. Fluxes are then
-                transferred by a belt conveyor to the each flux bin in the smelter and a belt scale weighs the fluxes on
-                the way to the flux bins.
+            <p class="mt-5 mb-5">Konsentrat tembaga diterima melalui kapal di dermaga yang dapat menampung kapal konsentrat
+                dengan kapasitas hingga 35.000 ton. Sebuah dermaga sepanjang 2 km dibangun untuk mencapai kedalaman air
+                yang cukup. Dermaga dibangun di ujung jeti. Unloader dengan clam shell bucket, kapasitas cakupan 350
+                t/jam, ship loader untuk slag, dan conveyor belt bolak-balik dipasang. Konsentrat yang telah diunggah
+                disampaikan ke halaman penyimpanan konsentrat (kapasitas 55.000 ton) setelah ditimbang dan diambil
+                sampel secara otomatis dalam perjalanan. Bahan lain seperti silika, batu kapur, dan batubara biasanya
+                diterima melalui truk dan disimpan di bangunan penyimpanan flux. Terak konverter (C-slag) juga disimpan
+                di bangunan flux. Flux kemudian dipindahkan oleh belt conveyor ke masing-masing bak flux di peleburan dan
+                belt scale menimbang flux dalam perjalanan ke bak flux.
             </p>
         </div>
     </div>
     <div class="container mt-5 fore">
         <div class="row ">
-            <h2 class="heading">Mitsubishi Continuous Process<span class="fw-lighter"></span></h2>
+            <h2 class="heading">Proses Berkelanjutan Mitsubishi<span class="fw-lighter"></span></h2>
         </div>
     </div>
     <div class="container">
@@ -175,32 +187,30 @@
                 <img src="/img/mcp.png" alt="">
             </div>
             <div class="col">
-                <p class=" mb-5">Copper concentrate is received by ship at a wharf which can accommodate concentrate
-                    ship carrying up to 35,000 tons. A jetty, 2 km in length is constructed to reach water of sufficient
-                    depth.
-                    PT. Smelting applies Mitsubishi technology for copper smelting process. The Mitsubishi process is
-                    copper continuous smelting and converting technology using three furnaces. The three furnaces are
-                    linked with covered launders, through which all the molten materials are continuously transferred by
-                    gravity.
-                    
-                    Copper concentrate (Cu:22-29 %, S: 27-32%, Fe: 22-27%) is fed through lance pipe with oxygen
-                    enriched air into the smelting furnace then oxidized and melted by exothermic reaction to form
-                    molten mixture of matte (Cu: 68%) and slag. The matte is separated from slag by difference of
-                    specific gravity in the slag cleaning furnace. The matte is further oxidized to form blister copper
-                    (Cu: 98.5%) in the converting furnace.
-                    Other materials like silica, lime stone and coal are normally received by truck and stored in the
-                    flux storage building. Converting furnace slag (C-slag) is also stored in the flux building. Fluxes
-                    are then transferred by a belt conveyor to the each flux bin in the smelter and a belt scale weighs
-                    the fluxes on the way to the flux bins.
+                <p class=" mb-5">Konsentrat tembaga diterima melalui kapal di dermaga yang dapat menampung kapal
+                    konsentrat
+                    dengan kapasitas hingga 35.000 ton. Dermaga sepanjang 2 km dibangun untuk mencapai kedalaman air yang
+                    cukup. PT Smelting menerapkan teknologi Mitsubishi untuk proses peleburan tembaga. Proses Mitsubishi
+                    adalah teknologi peleburan dan konversi tembaga berkelanjutan menggunakan tiga tungku. Ketiga tungku
+                    ini terhubung dengan selang yang tertutup, melalui mana semua bahan yang meleleh terus-menerus
+                    ditransfer oleh gravitasi.
+    
+                    Konsentrat tembaga (Cu:22-29%, S: 27-32%, Fe: 22-27%) dimasukkan melalui pipa lance dengan udara
+                    yang diperkaya oksigen ke dalam tungku peleburan lalu dioksidasi dan meleleh oleh reaksi eksotermik
+                    untuk membentuk campuran lelehan matte (Cu: 68%) dan slag. Matte dipisahkan dari slag oleh perbedaan
+                    berat jenis di tungku pembersih slag. Matte lebih lanjut dioksidasi untuk membentuk blister copper
+                    (Cu: 98,5%) di tungku konverter. Bahan lain seperti silika, batu kapur, dan batubara biasanya diterima
+                    melalui truk dan disimpan di bangunan penyimpanan flux. Terak konverter (C-slag) juga disimpan di
+                    bangunan flux. Fluxes kemudian dipindahkan oleh belt conveyor ke masing-masing bak flux di peleburan
+                    dan belt scale menimbang flux dalam perjalanan ke bak flux.
                 </p>
             </div>
-
         </div>
     </div>
-
+    
     <div class="container mt-5 fore">
         <div class="row ">
-            <h2 class="heading">The Advantage of Mitsubishi Process<span class="fw-lighter"></span></h2>
+           
         </div>
     </div>
     <div class="container">
@@ -209,39 +219,86 @@
                 <img src="/img/ta.png" alt="">
             </div>
             <div class="col">
-
-                <p class=" mb-5">Copper concentrate is received by ship at a wharf which can accommodate concentrate
-                    ship carrying up to 35,000 tons. A jetty, 2 km in length is constructed to reach water of sufficient
-                    depth.
-                    A wharf constructed at the head of the jetty. An unloader with a clam shell bucket, coverage
-                    capacity 350 t/h, ship loader for slag, and reversible belt conveyors are installed. Unloaded
-                    concentrate is delivered to concentrate storage yard (capacity 55,000 tons) after weighing and
-                    sampling automatically on the way.
-                    Other materials like silica, lime stone and coal are normally received by truck and stored in the
-                    flux storage building. Converting furnace slag (C-slag) is also stored in the flux building. Fluxes
-                    are then transferred by a belt conveyor to the each flux bin in the smelter and a belt scale weighs
-                    the fluxes on the way to the flux bins.
+                <h2 class="heading fore">Keunggulan Proses Mitsubishi<span class="fw-lighter"></span></h2>
+                <p class=" mb-5">Konsentrat tembaga diterima melalui kapal di dermaga yang dapat menampung kapal
+                    konsentrat
+                    dengan kapasitas hingga 35.000 ton. Dermaga sepanjang 2 km dibangun untuk mencapai kedalaman air yang
+                    cukup. Sebuah dermaga dibangun di ujung jeti. Unloader dengan clam shell bucket, kapasitas cakupan 350
+                    t/jam, ship loader untuk slag, dan conveyor belt bolak-balik dipasang. Unloaded concentrate is delivered
+                    to concentrate
                 </p>
             </div>
-
         </div>
     </div>
     <div class="container fore">
         <div class="row  mt-5 ">
-            <h3 class="heading fw-bold foregreen">Process Description<span class="fw-lighter"></span></h3>
+            <h2 class="heading fw-bold foregreen">Deskripsi Proses<span class="fw-lighter"></span></h2>
         </div>
     </div>
+    
 
-    <div class="container ">
-        <div class="row">
-            <div class="col-md-8  mb-5 imgr">
-                <img class="mt-3" src="img/sm1.png" alt="">
-                <img class="mt-2" src="img/sm2.png" alt="">
-                <img class="mt-2" src="img/sm3.png" alt="">
-                <img class="mt-2" src="img/sm4.png" alt="">
+    <div class="container">
+        <div class="row justify-content-center mb-5 mt-3">
+            <div class="col-md-3   imageprocess">
+                <img src="/img/prc1.png" alt="">
+            </div>
+            <div class="col">
+                <h4 class="heading fw-bold foregreen">1. Tungku Peleburan (S-Furnace)<span class="fw-lighter"></span></h4>
+                <p class=" mb-5">Konsentrat kering dan bahan pengganggu seperti pasir silika disuntikkan ke dalam tungku S melalui lembing vertikal dan dioksidasi dengan udara yang diperkaya oksigen untuk menghasilkan matte dan slag cair, dan campuran mereka meluap dari tungku S turun ke tungku CL melalui saluran air.
+                </p>
             </div>
         </div>
     </div>
+    <div class="container">
+        <div class="row justify-content-center mb-5 mt-3">
+            <div class="col-md-3   imageprocess">
+                <img src="/img/prc2.png" alt="">
+            </div>
+            <div class="col">
+                <h4 class="heading fw-bold foregreen">2. Tungku Pembersihan Slag (Cl-Furnace)<span class="fw-lighter"></span></h4>
+                <p class=" mb-5">Tungku CL dipanaskan oleh dua set elektroda tipe delta (2100 & 1500 KVA). Matte dipisahkan dari slag berdasarkan perbedaan berat jenis. Slag meluap, dicairkan dengan air, dan dijual ke industri semen, sementara matte yang cair (Cu 68%) terus disedot dan dipindahkan ke tungku C melalui saluran air.
+
+
+                </p>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row justify-content-center mb-5 mt-3">
+            <div class="col-md-3   imageprocess">
+                <img src="/img/prc3.png" alt="">
+            </div>
+            <div class="col">
+                <h4 class="heading fw-bold foregreen">3. Konverter (C-Furnace)<span class="fw-lighter"></span></h4>
+                <p class=" mb-5">Matte dan bahan dasar (batu kapur) bereaksi dengan udara yang diperkaya oksigen untuk membentuk tembaga gelembung dan kemudian dipisahkan dari slag berdasarkan perbedaan berat jenis. Slag (Cu14%) dikembalikan ke dalam S-furnace, sedangkan tembaga gelembung disaring dan dikirimkan ke dalam tungku anoda.
+                </p>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row justify-content-center mb-5 mt-3">
+            <div class="col-md-3   imageprocess">
+                <img src="/img/prc4.png" alt="">
+            </div>
+            <div class="col">
+                <h4 class="heading fw-bold foregreen">4. Tungku Anoda<span class="fw-lighter"></span></h4>
+                <p class=" mb-5">Tembaga gelembung dari C-Furnace dikirimkan ke salah satu tungku anoda menggunakan sistem pembawaan yang dapat diubah (switching launder system). Di dalam tungku ini, terjadi reaksi oksidasi dan reduksi untuk menghasilkan tembaga yang telah dimurnikan dan siap untuk dicetak.
+                </p>
+            </div>
+        </div>
+    </div> 
+    <div class="container">
+        <div class="row justify-content-center mb-5 mt-3">
+            <div class="col-md-3   imageprocess">
+                <img src="/img/prc5.png" alt="">
+            </div>
+            <div class="col">
+                <h4 class="heading fw-bold foregreen">5. Kastor Hazelett<span class="fw-lighter"></span></h4>
+                <p class=" mb-5">Tembaga yang telah dimurnikan dari tungku anoda dicetak secara kontinu menjadi pita tembaga oleh Hazelett Twin Belt Caster. Pita tembaga kontinu ini kemudian dipotong menjadi potongan-potongan anoda oleh mesin potong hidrolik.
+                </p>
+            </div>
+        </div>
+    </div> 
 
 
     <div class="container footer footerpad">
@@ -277,18 +334,16 @@
 
     <script>
         function visionmission() {
-
             window.location.href = "{{ url('/visionmission') }}";
         }
 
         function timeline1() {
-
             window.location.href = "{{ url('/timeline') }}";
         }
 
         function gallery() {
-
             window.location.href = "{{ url('/gallery') }}";
+
         }
     </script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"

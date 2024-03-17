@@ -8,6 +8,14 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
     <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <style>
+         *{
+            font-family: "Raleway", sans-serif;
+        }
+    </style>
     <link rel="stylesheet" href="/css/AboutUs.css">
     <style>
         .imageprocess {
@@ -100,6 +108,12 @@
                     <li class="nav-item mx-3">
                         <a class="nav-link text-light fw-lighter" href="#">Sitemap</a>
                     </li>
+                    <li class="nav-item mx-1">
+                        <a class="nav-link text-light fw-lighter" href="/">🇮🇩</a>
+                    </li>
+                    <li class="nav-item mx-1">
+                        <a class="nav-link text-light fw-lighter" href="/en">🇬🇧</a>
+                    </li>
                 </ul>
             </div>
         </div>
@@ -116,42 +130,37 @@
 
     <div class="container mt-5 fore">
         <div class="row ">
-            <h2 class="heading">PT. Smelting:<span class="fw-lighter"> Environmental  </span></h2>
+            <h2 class="heading">PT Smelting:<span class="fw-lighter"> Lingkungan </span></h2>
         </div>
     </div>
+    
     <div class="container mt-4">
         <div class="row ">
-
             <div class="col-md-10">
-                <h4 class="fw-bold foregreen">ENVIRONMENTAL ACTIVITY</h4>
+                <h4 class="fw-bold foregreen">AKTIVITAS LINGKUNGAN</h4>
                 <p class="">
-                    PT. Smelting is committed in Quality and Environment Policies to always, carefully and efficiently
-                    in using natural resources, conduct waste management & emission reduction also conduct biodiversity
-                    preservation.
+                    PT Smelting berkomitmen dalam Kebijakan Kualitas dan Lingkungan untuk selalu, dengan hati-hati dan efisien dalam menggunakan sumber daya alam, melakukan pengelolaan limbah & pengurangan emisi serta melakukan pelestarian biodiversitas.
                 </p>
             </div>
-
         </div>
     </div>
+    
     <div class="container mt-2">
         <div class="row  mb-5">
             <div class="col-md-10">
-                <h4 class="fw-bold foregreen">MANAGEMENT</h4>
+                <h4 class="fw-bold foregreen">MANAJEMEN</h4>
                 <p class="">
-                    To ensure that Quality and Environment Policy can be implemented well, Management of Biodiversity
-                    and Efficiency & Conservation of natural resources are carried out through structured and integrated
-                    management system by competent experts.
+                    Untuk memastikan bahwa Kebijakan Kualitas dan Lingkungan dapat dilaksanakan dengan baik, Manajemen Biodiversitas dan Efisiensi & Konservasi sumber daya alam dilakukan melalui sistem manajemen terstruktur dan terintegrasi oleh ahli yang kompeten.
                 </p>
             </div>
         </div>
     </div>
-
+    
     <div class="container ">
         <div class="row imageprocess justify-content-center  ">
             <div class="col-8">
                 <img src="img/env3.png" alt="">
             </div>
-
         </div>
     </div>
     <br>
@@ -161,7 +170,6 @@
             <div class="col-7">
                 <img src="img/env1.png" alt="">
             </div>
-
         </div>
     </div>
     <br>
@@ -169,7 +177,7 @@
     <div class="container mt-5">
         <div class="row  ">
             <div class="col-md-10">
-                <h4 class="fw-bold foregreen">ENVIRONMENT MANAGEMENT PROGRAM</h4>
+                <h4 class="fw-bold foregreen">PROGRAM MANAJEMEN LINGKUNGAN</h4>
             </div>
         </div>
     </div>
@@ -179,20 +187,12 @@
                 <img src="/img/Mangrove.png" alt="">
             </div>
             <div class="col-md-8 mt-3">
-                <h4 class="fw-bold foregreen">Mangrove Conservation</h4>
+                <h4 class="fw-bold foregreen">Konservasi Mangrove</h4>
                 <p class="">
-                    Since 2014, PT. Smelting conducted a Mangrove Tree planting program in Pangkah Kulon Village, Ujung
-                    Pangkah District. Mangrove trees planted by PT. Smelting as many as 40,300 Mangrove trees from
-                    Rhizopora Mucronata, Rhizopora Apiculata, Rhizopora Bruguera. This program is implemented until 2018
-                    in accordance with the strategic plan for biodiversity protection of PT. Smelting, and based on
-                    official recommendations from the Environmental Agency of the Gresik Regency Government.
+                    Sejak tahun 2014, PT Smelting melaksanakan program penanaman pohon mangrove di Desa Pangkah Kulon, Kecamatan Ujung Pangkah. Pohon mangrove yang ditanam oleh PT Smelting sebanyak 40.300 pohon mangrove dari jenis Rhizopora Mucronata, Rhizopora Apiculata, Rhizopora Bruguera. Program ini dilaksanakan hingga tahun 2018 sesuai dengan rencana strategis perlindungan biodiversitas PT Smelting, dan berdasarkan rekomendasi resmi dari Badan Lingkungan Hidup Pemerintah Kabupaten Gresik.
                     <br>
                     <br>
-                    The Mangrove conservation program was designed from the collaboration of the wishes of the people of
-                    Pangkah Kulon Village with PT. Smelting. In order to obtain data about the environmental baseline in
-                    the Mangrove conservation area, PT. Smelting through Airlangga University LPPM, Surabaya in 2015.
-                    And currently PT. Smelting has also begun to build monitoring posts and bridge to monitor Mangrove
-                    trees and also in the future will be used as an eco-tourism place for mangroves.
+                    Program konservasi mangrove ini dirancang dari kolaborasi keinginan masyarakat Desa Pangkah Kulon dengan PT Smelting. Untuk mendapatkan data tentang baseline lingkungan di area konservasi mangrove, PT Smelting melalui LPPM Universitas Airlangga, Surabaya pada tahun 2015. Saat ini, PT Smelting juga telah mulai membangun pos pemantauan dan jembatan untuk memantau pohon mangrove dan juga akan digunakan sebagai tempat wisata ekowisata mangrove di masa depan.
                 </p>
             </div>
         </div>
@@ -200,24 +200,15 @@
             <div class="col">
                 <div class="col-md-auto">
                     <p class="">
-                        Since 2014, PT. Smelting conducted a Mangrove Tree planting program in Pangkah Kulon Village, Ujung
-                        Pangkah District. Mangrove trees planted by PT. Smelting as many as 40,300 Mangrove trees from
-                        Rhizopora Mucronata, Rhizopora Apiculata, Rhizopora Bruguera. This program is implemented until 2018
-                        in accordance with the strategic plan for biodiversity protection of PT. Smelting, and based on
-                        official recommendations from the Environmental Agency of the Gresik Regency Government.
+                        Sejak tahun 2014, PT Smelting melaksanakan program penanaman pohon mangrove di Desa Pangkah Kulon, Kecamatan Ujung Pangkah. Pohon mangrove yang ditanam oleh PT Smelting sebanyak 40.300 pohon mangrove dari jenis Rhizopora Mucronata, Rhizopora Apiculata, Rhizopora Bruguera. Program ini dilaksanakan hingga tahun 2018 sesuai dengan rencana strategis perlindungan biodiversitas PT Smelting, dan berdasarkan rekomendasi resmi dari Badan Lingkungan Hidup Pemerintah Kabupaten Gresik.
                         <br>
                         <br>
-                        The Mangrove conservation program was designed from the collaboration of the wishes of the people of
-                        Pangkah Kulon Village with PT. Smelting. In order to obtain data about the environmental baseline in
-                        the Mangrove conservation area, PT. Smelting through Airlangga University LPPM, Surabaya in 2015.
-                        And currently PT. Smelting has also begun to build monitoring posts and bridge to monitor Mangrove
-                        trees and also in the future will be used as an eco-tourism place for mangroves.
+                        Program konservasi mangrove ini dirancang dari kolaborasi keinginan masyarakat Desa Pangkah Kulon dengan PT Smelting. Untuk mendapatkan data tentang baseline lingkungan di area konservasi mangrove, PT Smelting melalui LPPM Universitas Airlangga, Surabaya pada tahun 2015. Saat ini, PT Smelting juga telah mulai membangun pos pemantauan dan jembatan untuk memantau pohon mangrove dan juga akan digunakan sebagai tempat wisata ekowisata mangrove di masa depan.
                     </p>
                 </div>
             </div>
         </div>
     </div>
-
     
     <div class="container mt-5">
         <div class="row   mb-2">
@@ -225,20 +216,12 @@
                 <img src="/img/hawks.png" alt="">
             </div>
             <div class="col-md-8 mt-3">
-                <h4 class="fw-bold foregreen">Conservation of Javan Hawk-eagle (Nisaetus Bartelsi)</h4>
+                <h4 class="fw-bold foregreen">Konservasi Elang Jawa (Nisaetus Bartelsi)</h4>
                 <p class="">
-                    Since 2014, PT. Smelting conducted a Mangrove Tree planting program in Pangkah Kulon Village, Ujung
-                    Pangkah District. Mangrove trees planted by PT. Smelting as many as 40,300 Mangrove trees from
-                    Rhizopora Mucronata, Rhizopora Apiculata, Rhizopora Bruguera. This program is implemented until 2018
-                    in accordance with the strategic plan for biodiversity protection of PT. Smelting, and based on
-                    official recommendations from the Environmental Agency of the Gresik Regency Government.
+                    Sejak tahun 2014, PT Smelting melaksanakan program penanaman pohon mangrove di Desa Pangkah Kulon, Kecamatan Ujung Pangkah. Pohon mangrove yang ditanam oleh PT Smelting sebanyak 40.300 pohon mangrove dari jenis Rhizopora Mucronata, Rhizopora Apiculata, Rhizopora Bruguera. Program ini dilaksanakan hingga tahun 2018 sesuai dengan rencana strategis perlindungan biodiversitas PT Smelting, dan berdasarkan rekomendasi resmi dari Badan Lingkungan Hidup Pemerintah Kabupaten Gresik.
                     <br>
                     <br>
-                    The Mangrove conservation program was designed from the collaboration of the wishes of the people of
-                    Pangkah Kulon Village with PT. Smelting. In order to obtain data about the environmental baseline in
-                    the Mangrove conservation area, PT. Smelting through Airlangga University LPPM, Surabaya in 2015.
-                    And currently PT. Smelting has also begun to build monitoring posts and bridge to monitor Mangrove
-                    trees and also in the future will be used as an eco-tourism place for mangroves.
+                    Program konservasi mangrove ini dirancang dari kolaborasi keinginan masyarakat Desa Pangkah Kulon dengan PT Smelting. Untuk mendapatkan data tentang baseline lingkungan di area konservasi mangrove, PT Smelting melalui LPPM Universitas Airlangga, Surabaya pada tahun 2015. Saat ini, PT Smelting juga telah mulai membangun pos pemantauan dan jembatan untuk memantau pohon mangrove dan juga akan digunakan sebagai tempat wisata ekowisata mangrove di masa depan.
                 </p>
             </div>
         </div>
@@ -246,24 +229,16 @@
             <div class="col">
                 <div class="col-md-auto">
                     <p class="">
-                        Since 2014, PT. Smelting conducted a Mangrove Tree planting program in Pangkah Kulon Village, Ujung
-                        Pangkah District. Mangrove trees planted by PT. Smelting as many as 40,300 Mangrove trees from
-                        Rhizopora Mucronata, Rhizopora Apiculata, Rhizopora Bruguera. This program is implemented until 2018
-                        in accordance with the strategic plan for biodiversity protection of PT. Smelting, and based on
-                        official recommendations from the Environmental Agency of the Gresik Regency Government.
+                        Sejak tahun 2014, PT Smelting melaksanakan program penanaman pohon mangrove di Desa Pangkah Kulon, Kecamatan Ujung Pangkah. Pohon mangrove yang ditanam oleh PT Smelting sebanyak 40.300 pohon mangrove dari jenis Rhizopora Mucronata, Rhizopora Apiculata, Rhizopora Bruguera. Program ini dilaksanakan hingga tahun 2018 sesuai dengan rencana strategis perlindungan biodiversitas PT Smelting, dan berdasarkan rekomendasi resmi dari Badan Lingkungan Hidup Pemerintah Kabupaten Gresik.
                         <br>
                         <br>
-                        The Mangrove conservation program was designed from the collaboration of the wishes of the people of
-                        Pangkah Kulon Village with PT. Smelting. In order to obtain data about the environmental baseline in
-                        the Mangrove conservation area, PT. Smelting through Airlangga University LPPM, Surabaya in 2015.
-                        And currently PT. Smelting has also begun to build monitoring posts and bridge to monitor Mangrove
-                        trees and also in the future will be used as an eco-tourism place for mangroves.
+                        Program konservasi mangrove ini dirancang dari kolaborasi keinginan masyarakat Desa Pangkah Kulon dengan PT Smelting. Untuk mendapatkan data tentang baseline lingkungan di area konservasi mangrove, PT Smelting melalui LPPM Universitas Airlangga, Surabaya pada tahun 2015. Saat ini, PT Smelting juga telah mulai membangun pos pemantauan dan jembatan untuk memantau pohon mangrove dan juga akan digunakan sebagai tempat wisata ekowisata mangrove di masa depan.
                     </p>
                 </div>
             </div>
         </div>
     </div>
-
+    
 
 
 
